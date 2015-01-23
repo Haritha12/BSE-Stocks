@@ -2,9 +2,8 @@ Project Progress:
 
 [22-01-2015] 
 	- Search websites for data
-	- Downloaded data 
-	
-	
+	- Downloaded data (for past 1 yr)
+	- Searched for the APIs to download stock data
 	
 [23-01-2015]
 	
