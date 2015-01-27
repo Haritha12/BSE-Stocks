@@ -14,7 +14,7 @@ comp = []
 bsenames = {}
 sen = {}    
 scores = {}    
-count = 0 
+ 
 
 root = tk.Tk()
 var = tk.StringVar(root) 
@@ -44,40 +44,41 @@ def correlate(comp):
     out = []
     prevb=0
     prevc=0
-    #count =count+1
+    
     name="./data/files/"+comp+".csv"
     file = csv.reader(open(name,"rb"))
     next(file, None)
     count  =0
     for row1 in file:
-        val = 0
-        temp = row1[0]
-        if prevb == 0:
-            prevb = sen[temp]
-            prevc = row1[6]
-        else:
-            if temp in sen.keys():
-                x = sen[temp]
-                y = row1[6]
-                diffb = float(x) - float(prevb)
-                diffc = float(y) - float(prevc)
-                if diffb>0 and diffc>0:
-                    val = 1
-                elif diffb>0 and diffc<0:
-                    val = -1
-                elif diffb<0 and diffc>0:
-                    val = 2
-                elif diffb<0 and diffc<0:
-                    val = 0
-                    
-                    
-                prevb = x
-                prevc = y
-            #print row[0],score
-        print count
-        count = count+1
-        date.append(temp)
-        out.append(val)
+        if count < 30:
+            val = 0
+            temp = row1[0]
+            if prevb == 0:
+                prevb = sen[temp]
+                prevc = row1[6]
+            else:
+                if temp in sen.keys():
+                    x = sen[temp]
+                    y = row1[6]
+                    diffb = float(x) - float(prevb)
+                    diffc = float(y) - float(prevc)
+                    if diffb>0 and diffc>0:
+                        val = 1
+                    elif diffb>0 and diffc<0:
+                        val = -1
+                    elif diffb<0 and diffc>0:
+                        val = 2
+                    elif diffb<0 and diffc<0:
+                        val = 0
+                        
+                        
+                    prevb = x
+                    prevc = y
+                #print row[0],score
+            print count
+            count = count+1
+            date.append(temp)
+            out.append(val)
             
         #print row[0]+"==============="+str(score)
     print date
@@ -114,6 +115,7 @@ def correlation():
         prevb=0
         prevc=0
         count =count+1
+        
         name="./data/files/"+row+".csv"
         file = csv.reader(open(name,"rb"))
         next(file, None)

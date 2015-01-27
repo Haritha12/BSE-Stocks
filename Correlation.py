@@ -68,7 +68,7 @@ for row in comp:
 sorted_scores = sorted(scores.items(), key=operator.itemgetter(1),reverse=True)
 
 for a in sorted_scores:
-    print a
+    print a[0]+"========"+str(a[1])
             
             
             
