@@ -24,7 +24,8 @@ def display():
     
     root.geometry("%dx%d+%d+%d" % (330, 80, 200, 150))
     root.title("Select company")
-    choices = comp
+    names = bsenames.values()
+    choices = names
     
     # initial value
     var.set('select')
@@ -36,6 +37,9 @@ def display():
 
 def ok():
     company = var.get()
+    for code, name in bsenames.iteritems():
+        if name == company:
+            company = code
     correlate(company)
     
 def correlate(comp):
@@ -45,7 +49,7 @@ def correlate(comp):
     prevb=0
     prevc=0
     
-    name="./data/files/"+comp+".csv"
+    name="./NewData/files/"+comp+".csv"
     file = csv.reader(open(name,"rb"))
     next(file, None)
     count  =0
@@ -55,21 +59,21 @@ def correlate(comp):
             temp = row1[0]
             if prevb == 0:
                 prevb = sen[temp]
-                prevc = row1[6]
+                prevc = row1[4]
             else:
                 if temp in sen.keys():
                     x = sen[temp]
-                    y = row1[6]
+                    y = row1[4]
                     diffb = float(x) - float(prevb)
                     diffc = float(y) - float(prevc)
                     if diffb>0 and diffc>0:
                         val = 1
                     elif diffb>0 and diffc<0:
-                        val = -1
+                        val = -2
                     elif diffb<0 and diffc>0:
                         val = 2
                     elif diffb<0 and diffc<0:
-                        val = 0
+                        val = -1
                         
                         
                     prevb = x
@@ -98,14 +102,14 @@ def correlate(comp):
     
     
 def loaddata():
-    bse = csv.reader(open("./data/Sensex.csv","rb"))
+    bse = csv.reader(open("./NewData/Sensex.csv","rb"))
     next(bse, None)
-    names = csv.reader(open("./data/bsenames.csv","rb"))
+    names = csv.reader(open("./NewData/BSE100.csv","rb"))
     for na in names:
         bsenames[na[0]] = na[1]
         comp.append(na[0])
     for r in bse:
-        sen[r[0]] = r[6]
+        sen[r[0]] = r[4]
     
 
 def correlation():
@@ -115,31 +119,32 @@ def correlation():
         prevb=0
         prevc=0
         count =count+1
-        
-        name="./data/files/"+row+".csv"
+        name="./NewData/files/"+row+".csv"
         file = csv.reader(open(name,"rb"))
         next(file, None)
         for row1 in file:
-            temp = row1[0]
+            temp = str(row1[0])   
+            #print temp     
+            #if temp in sen.keys():
             if prevb == 0:
                 prevb = sen[temp]
-                prevc = row1[6]
-            else:
-                if temp in sen.keys():
-                    x = sen[temp]
-                    y = row1[6]
-                    diffb = float(x) - float(prevb)
-                    diffc = float(y) - float(prevc)
-                    if diffb>0 and diffc>0:
-                        score = score+1
-                    elif diffb>0 and diffc<0:
-                        score = score-1
-                    elif diffb<0 and diffc>0:
-                        score = score+2
+                prevc = row1[4]
+            else:            
+                x = sen[temp]
+                y = row1[4]
+                diffb = float(x) - float(prevb)
+                diffc = float(y) - float(prevc)
+                if diffb>0 and diffc>0:
+                    score = score+1
+                elif diffb>0 and diffc<0:
+                    score = score-1
+                elif diffb<0 and diffc>0:
+                    score = score+2
                     
-                    
-                    prevb = x
-                    prevc = y
+                
+                
+                prevb = x
+                prevc = y
             #print row[0],score
             
         #print row[0]+"==============="+str(score)

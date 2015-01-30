@@ -13,10 +13,10 @@ import operator
 
 
 comp = []
-bse = csv.reader(open("./data/Sensex.csv","rb"))
+bse = csv.reader(open("./NewData/Sensex.csv","rb"))
 next(bse, None)
 
-names = csv.reader(open("./data/bsenames.csv","rb"))
+names = csv.reader(open("./NewData/BSE100.csv","rb"))
 
 bsenames = {}
 for na in names:
@@ -27,7 +27,8 @@ for na in names:
 sen = {}
 
 for r in bse:
-    sen[r[0]] = r[6]
+    sen[r[0]] = str(r[4])
+    #print r[0],str(r[4])+"=========="
     
 scores = {}    
 count = 0 
@@ -36,30 +37,32 @@ for row in comp:
     prevb=0
     prevc=0
     count =count+1
-    name="./data/files/"+row+".csv"
+    name="./NewData/files/"+row+".csv"
     file = csv.reader(open(name,"rb"))
     next(file, None)
     for row1 in file:
-        temp = row1[0]
+        temp = str(row1[0])   
+        #print temp     
+        #if temp in sen.keys():
         if prevb == 0:
             prevb = sen[temp]
-            prevc = row1[6]
-        else:
-            if temp in sen.keys():
-                x = sen[temp]
-                y = row1[6]
-                diffb = float(x) - float(prevb)
-                diffc = float(y) - float(prevc)
-                if diffb>0 and diffc>0:
-                    score = score+1
-                elif diffb>0 and diffc<0:
-                    score = score-1
-                elif diffb<0 and diffc>0:
-                    score = score+2
+            prevc = row1[4]
+        else:            
+            x = sen[temp]
+            y = row1[4]
+            diffb = float(x) - float(prevb)
+            diffc = float(y) - float(prevc)
+            if diffb>0 and diffc>0:
+                score = score+1
+            elif diffb>0 and diffc<0:
+                score = score-1
+            elif diffb<0 and diffc>0:
+                score = score+2
                 
-                
-                prevb = x
-                prevc = y
+            
+            
+            prevb = x
+            prevc = y
         #print row[0],score
         
     #print row[0]+"==============="+str(score)
