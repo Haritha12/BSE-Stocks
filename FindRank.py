@@ -23,34 +23,46 @@ def loadData():
              
 def yearWise():
     
-    print CODE_LIST
+    #print CODE_LIST
+    lastCp = {}
+    firstCp = {}
+    gainper = {}
+    
+    
     for code in CODE_LIST:
         
         fp = csv.reader(open("./BigData/files/"+code+".csv","rb"))
-        
+    
         for f in fp:
-           # d = f[0].split("-")
-            lastCp = 0
-            firstCp = 0
-            
+           
             if f[0] == "31-December-2014":
                 #print "in if"
-                lastCp = f[4] 
-                print code,"L:",lastCp
-                
-            elif f[0] == "01-January-2014":
-                print "in elif"
-                firstCp = f[4]
-                print "F:",firstCp
-                
+                lastCp[code] = f[4] 
+              
+            elif f[0] == "1-January-2014":
+                #print "in elif"
+                firstCp[code] = f[4]
+              
             else :
                 continue
-            
-            #perchange = (lastCp - firstCp)/firstCp
-            #print code,":",perchange
-            #print code, round(perchange,2)
+    
+    
+    for code in CODE_LIST:
+        last = float(lastCp[code])
+        first = float(firstCp[code])
+                 
+        gain = (last - first) / first
+        perchange = round ((gain * 100),2)
         
-
+        gainper[code] = perchange
+        sorted_values = sorted(gainper.items(), key=operator.itemgetter(1), reverse=True)
+        
+        #print gainper
+    print sorted_values
+        #print code,": % change is ", perchange
+        
+    
+       
 def main():
     loadData()
     yearWise()
