@@ -1,0 +1,1881 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="ctl00_Head1"><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" /><link href="../../../include/class/leftmenu.css" rel="stylesheet" type="text/css" /><link rel="Stylesheet" type="text/css" href="http://www.bseindia.com/include/class/google.css" />
+
+    <script type="text/javascript" src="../../../include/js/google_mid.js"></script>
+
+<script type="text/javascript" src="../../../include/js/Eqautocomplete.js"></script>
+
+<link href="../../../include/class/class.css" rel="stylesheet" type="text/css" />
+ <script>      !window.jQuery && document.write(unescape('%3Cscript src="http://www.bseindia.com/include/js/jquery-1.4.2.js"%3E%3C/script%3E'))</script>
+  
+    
+  
+<script type="text/javascript" language="javascript" src="../../../include/js/jquery.js"></script>
+
+
+<script src="../../../include/js/ddaccordion.js" type="text/javascript"></script>
+<script src="../../../include/js/JScript2.js" type="text/javascript"></script>
+
+
+
+<script type="text/javascript">
+
+
+function Display(type)
+    {
+        //alert('Hi');
+        if (type==1)
+            window.open("http://www.bseindia.com/download/video/callauction/callauction.html","mem","toolbar=no,left=0,location=no,menubar=no,scrollbars=yes,width=740,height=600,top=150,left=200")
+      
+        return false;
+    }
+
+</script>
+
+<script type="text/javascript">
+
+
+    ddaccordion.init({
+        headerclass: "expandable", //Shared CSS class name of headers group that are expandable
+        contentclass: "categoryitems", //Shared CSS class name of contents group
+        revealtype: "click", //Reveal content when user clicks or onmouseover the header? Valid value: "click", "clickgo", or "mouseover"
+        mouseoverdelay: 200, //if revealtype="mouseover", set delay in milliseconds before header expands onMouseover
+        collapseprev: true, //Collapse previous content (so only one open at any time)? true/false 
+        defaultexpanded: [0], //index of content(s) open by default [index1, index2, etc]. [] denotes no content
+        onemustopen: false, //Specify whether at least one header should be open always (so never all headers closed)
+        animatedefault: false, //Should contents open by default be animated into view?
+        persiststate: true, //persist state of opened contents within browser session?
+        toggleclass: ["", "openheader"], //Two CSS classes to be applied to the header when it's collapsed and expanded, respectively ["class1", "class2"]
+        togglehtml: ["prefix", "", ""], //Additional HTML added to the header when it's collapsed and expanded, respectively  ["position", "html1", "html2"] (see docs)
+        animatespeed: "fast", //speed of animation: integer in milliseconds (ie: 200), or keywords "fast", "normal", or "slow"
+        oninit: function(headers, expandedindices) { //custom code to run when headers have initalized
+            //do nothing
+        },
+        onopenclose: function(header, index, state, isuseractivated) { //custom code to run whenever a header is opened or closed
+            //do nothing
+        }
+    })
+</script>
+
+
+
+<!--google analytics-->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-27569176-1', 'auto');
+ga('require', 'displayfeatures');
+ga('send', 'pageview');
+
+</script>
+
+<!--google analytics-->
+
+<!-- Start Alexa Certify Javascript -->
+<script type="text/javascript" src="https://d31qbv1cthcecs.cloudfront.net/atrk.js"></script><script type="text/javascript">_atrk_opts = { atrk_acct: "SNJNg1awO700iG", domain:"bseindia.com"}; atrk ();</script><noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=SNJNg1awO700iG" style="display:none" height="1" width="1" alt="" /></noscript>
+<!-- End Alexa Certify Javascript -->
+
+
+
+<title>
+	Stock Prices
+</title></head>
+<body >
+    <form name="aspnetForm" method="post" action="StockPrcHistori.aspx?scripcode=512289&amp;flag=sp&amp;Submit=G" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNzQ4NDIzODI1D2QWAmYPZBYCAgMPZBYCAgMPZBYOAhcPDxYCHgRUZXh0BQxTdG9jayBQcmljZXNkZAIbDw8WAh8ABQxTdG9jayBQcmljZXNkZAIfDw8WAh8AZWRkAiEPFgIeBXN0eWxlBQlkaXNwbGF5OjtkAiUPFgIfAQUJZGlzcGxheTo7FgYCDw8QDxYGHg1EYXRhVGV4dEZpZWxkBQhZZWFyVGV4dB4ORGF0YVZhbHVlRmllbGQFCVllYXJWYWx1ZR4LXyFEYXRhQm91bmRnFgIeCG9uQ2hhbmdlBQpvbkNoYW5nZSgpEBUaBFlZWVkEMjAxNQQyMDE0BDIwMTMEMjAxMgQyMDExBDIwMTAEMjAwOQQyMDA4BDIwMDcEMjAwNgQyMDA1BDIwMDQEMjAwMwQyMDAyBDIwMDEEMjAwMAQxOTk5BDE5OTgEMTk5NwQxOTk2BDE5OTUEMTk5NAQxOTkzBDE5OTIEMTk5MRUaBFlZWVkEMjAxNQQyMDE0BDIwMTMEMjAxMgQyMDExBDIwMTAEMjAwOQQyMDA4BDIwMDcEMjAwNgQyMDA1BDIwMDQEMjAwMwQyMDAyBDIwMDEEMjAwMAQxOTk5BDE5OTgEMTk5NwQxOTk2BDE5OTUEMTk5NAQxOTkzBDE5OTIEMTk5MRQrAxpnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2RkAhMPEA8WBh8CBQhZZWFyVGV4dB8DBQlZZWFyVmFsdWUfBGcWAh8FBRBvbkNoYW5nZVllYXJseSgpEBUaBFlZWVkEMjAxNQQyMDE0BDIwMTMEMjAxMgQyMDExBDIwMTAEMjAwOQQyMDA4BDIwMDcEMjAwNgQyMDA1BDIwMDQEMjAwMwQyMDAyBDIwMDEEMjAwMAQxOTk5BDE5OTgEMTk5NwQxOTk2BDE5OTUEMTk5NAQxOTkzBDE5OTIEMTk5MRUaBFlZWVkEMjAxNQQyMDE0BDIwMTMEMjAxMgQyMDExBDIwMTAEMjAwOQQyMDA4BDIwMDcEMjAwNgQyMDA1BDIwMDQEMjAwMwQyMDAyBDIwMDEEMjAwMAQxOTk5BDE5OTgEMTk5NwQxOTk2BDE5OTUEMTk5NAQxOTkzBDE5OTIEMTk5MRQrAxpnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2RkAhUPD2QWAh4Hb25DbGljawUacmV0dXJuIG9uYnRuU3VibWl0X0NsaWNrKClkAicPFgIfAQUJZGlzcGxheTo7Fg4CAQ8PFgIfAAWnATxhIHRhcmdldD0nX2JsYW5rJyBDbGFzcz0ndGFibGVibHVlbGluaycgaHJlZj0naHR0cDovL3d3dy5ic2VpbmRpYS5jb20vc3RvY2stc2hhcmUtcHJpY2UvbW90aGVyc29uLXN1bWktc3lzdGVtcy1sdGQvbW90aGVyc3VtaS81MTczMzQvJz5NT1RIRVJTT04gU1VNSSBTWVNURU1TIExURC48L2E+ZGQCAw8PFgIfAAUGNTE3MzM0ZGQCBw8PFgIfAAULMDEtSmFuLTE5OTBkZAIJDw8WAh8ABQszMS1EZWMtMjAxNGRkAg0PFgIfAQUNZGlzcGxheTpub25lO2QCEQ9kFgQCAQ8WAh8BBTlwb3NpdGlvbjpyZWxhdGl2ZTt0b3A6NTAlO3RleHQtYWxpZ246Y2VudGVyO2Rpc3BsYXk6bm9uZTtkAgMPFgIeCWlubmVyaHRtbAWhlAE8dGFibGUgd2lkdGg9JzY4MHB4JyBib3JkZXI9JzAnIGNlbGxwYWRkaW5nPSc0JyBjZWxsc3BhY2luZz0nMSc+PHRyPjx0ZCB3aWR0aD0nNTBweCcgY2xhc3M9J2lubmVydGFibGVfaGVhZGVyMScgcm93c3Bhbj0nMic+RGF0ZTwvdGQ+PHRkIHdpZHRoPSc2NXB4JyBjbGFzcz0naW5uZXJ0YWJsZV9oZWFkZXIxJyByb3dzcGFuPScyJz5PcGVuPC90ZD48dGQgd2lkdGg9JzY1cHgnIGNsYXNzPSdpbm5lcnRhYmxlX2hlYWRlcjEnIHJvd3NwYW49JzInPkhpZ2g8L3RkPjx0ZCB3aWR0aD0nNjVweCcgY2xhc3M9J2lubmVydGFibGVfaGVhZGVyMScgcm93c3Bhbj0nMic+TG93PC90ZD48dGQgd2lkdGg9JzY1cHgnIGNsYXNzPSdpbm5lcnRhYmxlX2hlYWRlcjEnIHJvd3NwYW49JzInPkNsb3NlPC90ZD48dGQgd2lkdGg9JzcwcHgnIGNsYXNzPSdpbm5lcnRhYmxlX2hlYWRlcjEnIHJvd3NwYW49JzInPldBUDwvdGQ+PHRkIHdpZHRoPSc3MHB4JyBjbGFzcz0naW5uZXJ0YWJsZV9oZWFkZXIxJyByb3dzcGFuPScyJz5Oby4gb2YgPGJyLz5TaGFyZXM8L3RkPjx0ZCB3aWR0aD0nNzVweCcgY2xhc3M9J2lubmVydGFibGVfaGVhZGVyMScgcm93c3Bhbj0nMic+Tm8uIG9mIDxici8+VHJhZGVzPC90ZD48dGQgd2lkdGg9JzEyNXB4JyBjbGFzcz0naW5uZXJ0YWJsZV9oZWFkZXIxJyByb3dzcGFuPScyJz5Ub3RhbCBUdXJub3ZlcjwvdGQ+PHRkIHdpZHRoPScxMjVweCcgY2xhc3M9J2lubmVydGFibGVfaGVhZGVyMScgcm93c3Bhbj0nMic+RGVsaXZlcmFibGUgUXVhbnRpdHk8L3RkPjx0ZCB3aWR0aD0nMTI1cHgnIGNsYXNzPSdpbm5lcnRhYmxlX2hlYWRlcjEnIHJvd3NwYW49JzInPiUgRGVsaS4gUXR5IHRvIFRyYWRlZCBRdHkgPC90ZD48dGQgd2lkdGg9JzE2MHB4JyBjbGFzcz0naW5uZXJ0YWJsZV9oZWFkZXIxJyAgY29sc3Bhbj0nMic+KiBTcHJlYWQ8L3RkPjx0ZCB3aWR0aD0nNXB4JyBjbGFzcz0naW5uZXJ0YWJsZV9oZWFkZXIxJyByb3dzcGFuPScyJz4mbmJzcDs8L3RkPjwvdHI+PHRyPjx0ZCB3aWR0aD0nNTBweCcgY2xhc3M9J2lubmVydGFibGVfaGVhZGVyMSc+SC1MPC90ZD48dGQgd2lkdGg9JzUwcHgnIGNsYXNzPSdpbm5lcnRhYmxlX2hlYWRlcjEnPkMtTzwvdGQ+PC90cj48dHIgY2xhc3M9J1RUUm93Jz48dGQgY2xhc3M9J1RUUm93X2xlZnQxMCcgd2lkdGg9JzUwcHgnPjkvMDkvOTM8L3RkPjx0ZCB3aWR0aD0nNjVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjQxLjAwPC90ZD48dGQgd2lkdGg9JzY1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz40My4wMDwvdGQ+PHRkIHdpZHRoPSc2NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+NDEuMDA8L3RkPjx0ZCB3aWR0aD0nNjVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjQyLjAwPC90ZD48dGQgd2lkdGg9JzcwcHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz4wLjAwPC90ZD48dGQgd2lkdGg9JzcwcHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz48L3RkPjx0ZCB3aWR0aD0nNzVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjwvdGQ+PHRkIHdpZHRoPScxMjVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjA8L3RkPjx0ZCB3aWR0aD0nNDVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPi08L3RkPjx0ZCB3aWR0aD0nNDVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPi08L3RkPjx0ZCB3aWR0aD0nNDVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjIuMDA8L3RkPjx0ZCB3aWR0aD0nNDVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjEuMDA8L3RkPjx0ZCB3aWR0aD0nNXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+QDwvdGQ+PC90cj48dHIgY2xhc3M9J1RUUm93Jz48dGQgY2xhc3M9J1RUUm93X2xlZnQxMCcgd2lkdGg9JzUwcHgnPjEwLzA5LzkzPC90ZD48dGQgd2lkdGg9JzY1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz40MC4wMDwvdGQ+PHRkIHdpZHRoPSc2NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+NDUuMDA8L3RkPjx0ZCB3aWR0aD0nNjVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjQwLjAwPC90ZD48dGQgd2lkdGg9JzY1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz40NC4wMDwvdGQ+PHRkIHdpZHRoPSc3MHB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+MC4wMDwvdGQ+PHRkIHdpZHRoPSc3MHB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+PC90ZD48dGQgd2lkdGg9Jzc1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz48L3RkPjx0ZCB3aWR0aD0nMTI1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz4wPC90ZD48dGQgd2lkdGg9JzQ1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz4tPC90ZD48dGQgd2lkdGg9JzQ1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz4tPC90ZD48dGQgd2lkdGg9JzQ1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz41LjAwPC90ZD48dGQgd2lkdGg9JzQ1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz40LjAwPC90ZD48dGQgd2lkdGg9JzVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPkA8L3RkPjwvdHI+PHRyIGNsYXNzPSdUVFJvdyc+PHRkIGNsYXNzPSdUVFJvd19sZWZ0MTAnIHdpZHRoPSc1MHB4Jz4xMy8wOS85MzwvdGQ+PHRkIHdpZHRoPSc2NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+NDMuMDA8L3RkPjx0ZCB3aWR0aD0nNjVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjUwLjAwPC90ZD48dGQgd2lkdGg9JzY1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz40My4wMDwvdGQ+PHRkIHdpZHRoPSc2NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+NDcuMDA8L3RkPjx0ZCB3aWR0aD0nNzBweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjAuMDA8L3RkPjx0ZCB3aWR0aD0nNzBweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjwvdGQ+PHRkIHdpZHRoPSc3NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+PC90ZD48dGQgd2lkdGg9JzEyNXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+MDwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+LTwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+LTwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+Ny4wMDwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+NC4wMDwvdGQ+PHRkIHdpZHRoPSc1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz5APC90ZD48L3RyPjx0ciBjbGFzcz0nVFRSb3cnPjx0ZCBjbGFzcz0nVFRSb3dfbGVmdDEwJyB3aWR0aD0nNTBweCc+MTQvMDkvOTM8L3RkPjx0ZCB3aWR0aD0nNjVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjQ1LjAwPC90ZD48dGQgd2lkdGg9JzY1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz41MC4wMDwvdGQ+PHRkIHdpZHRoPSc2NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+NDUuMDA8L3RkPjx0ZCB3aWR0aD0nNjVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjUwLjAwPC90ZD48dGQgd2lkdGg9JzcwcHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz4wLjAwPC90ZD48dGQgd2lkdGg9JzcwcHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz48L3RkPjx0ZCB3aWR0aD0nNzVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjwvdGQ+PHRkIHdpZHRoPScxMjVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjA8L3RkPjx0ZCB3aWR0aD0nNDVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPi08L3RkPjx0ZCB3aWR0aD0nNDVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPi08L3RkPjx0ZCB3aWR0aD0nNDVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjUuMDA8L3RkPjx0ZCB3aWR0aD0nNDVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjUuMDA8L3RkPjx0ZCB3aWR0aD0nNXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+QDwvdGQ+PC90cj48dHIgY2xhc3M9J1RUUm93Jz48dGQgY2xhc3M9J1RUUm93X2xlZnQxMCcgd2lkdGg9JzUwcHgnPjE1LzA5LzkzPC90ZD48dGQgd2lkdGg9JzY1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz40Ni4yNTwvdGQ+PHRkIHdpZHRoPSc2NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+NTAuMDA8L3RkPjx0ZCB3aWR0aD0nNjVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjQ1LjAwPC90ZD48dGQgd2lkdGg9JzY1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz41MC4wMDwvdGQ+PHRkIHdpZHRoPSc3MHB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+MC4wMDwvdGQ+PHRkIHdpZHRoPSc3MHB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+PC90ZD48dGQgd2lkdGg9Jzc1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz48L3RkPjx0ZCB3aWR0aD0nMTI1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz4wPC90ZD48dGQgd2lkdGg9JzQ1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz4tPC90ZD48dGQgd2lkdGg9JzQ1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz4tPC90ZD48dGQgd2lkdGg9JzQ1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz41LjAwPC90ZD48dGQgd2lkdGg9JzQ1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz4zLjc1PC90ZD48dGQgd2lkdGg9JzVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPkA8L3RkPjwvdHI+PHRyIGNsYXNzPSdUVFJvdyc+PHRkIGNsYXNzPSdUVFJvd19sZWZ0MTAnIHdpZHRoPSc1MHB4Jz4xNi8wOS85MzwvdGQ+PHRkIHdpZHRoPSc2NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+NDUuMDA8L3RkPjx0ZCB3aWR0aD0nNjVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjQ4Ljc1PC90ZD48dGQgd2lkdGg9JzY1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz40NS4wMDwvdGQ+PHRkIHdpZHRoPSc2NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+NDcuNTA8L3RkPjx0ZCB3aWR0aD0nNzBweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjAuMDA8L3RkPjx0ZCB3aWR0aD0nNzBweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjwvdGQ+PHRkIHdpZHRoPSc3NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+PC90ZD48dGQgd2lkdGg9JzEyNXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+MDwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+LTwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+LTwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+My43NTwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+Mi41MDwvdGQ+PHRkIHdpZHRoPSc1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz5APC90ZD48L3RyPjx0ciBjbGFzcz0nVFRSb3cnPjx0ZCBjbGFzcz0nVFRSb3dfbGVmdDEwJyB3aWR0aD0nNTBweCc+MTcvMDkvOTM8L3RkPjx0ZCB3aWR0aD0nNjVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjQ1LjAwPC90ZD48dGQgd2lkdGg9JzY1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz40OC43NTwvdGQ+PHRkIHdpZHRoPSc2NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+NDUuMDA8L3RkPjx0ZCB3aWR0aD0nNjVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjQ4Ljc1PC90ZD48dGQgd2lkdGg9JzcwcHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz4wLjAwPC90ZD48dGQgd2lkdGg9JzcwcHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz48L3RkPjx0ZCB3aWR0aD0nNzVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjwvdGQ+PHRkIHdpZHRoPScxMjVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjA8L3RkPjx0ZCB3aWR0aD0nNDVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPi08L3RkPjx0ZCB3aWR0aD0nNDVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPi08L3RkPjx0ZCB3aWR0aD0nNDVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjMuNzU8L3RkPjx0ZCB3aWR0aD0nNDVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjMuNzU8L3RkPjx0ZCB3aWR0aD0nNXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+QDwvdGQ+PC90cj48dHIgY2xhc3M9J1RUUm93Jz48dGQgY2xhc3M9J1RUUm93X2xlZnQxMCcgd2lkdGg9JzUwcHgnPjIwLzA5LzkzPC90ZD48dGQgd2lkdGg9JzY1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz40NS4wMDwvdGQ+PHRkIHdpZHRoPSc2NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+NTAuMDA8L3RkPjx0ZCB3aWR0aD0nNjVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjQ1LjAwPC90ZD48dGQgd2lkdGg9JzY1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz41MC4wMDwvdGQ+PHRkIHdpZHRoPSc3MHB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+MC4wMDwvdGQ+PHRkIHdpZHRoPSc3MHB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+PC90ZD48dGQgd2lkdGg9Jzc1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz48L3RkPjx0ZCB3aWR0aD0nMTI1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz4wPC90ZD48dGQgd2lkdGg9JzQ1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz4tPC90ZD48dGQgd2lkdGg9JzQ1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz4tPC90ZD48dGQgd2lkdGg9JzQ1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz41LjAwPC90ZD48dGQgd2lkdGg9JzQ1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz41LjAwPC90ZD48dGQgd2lkdGg9JzVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPkA8L3RkPjwvdHI+PHRyIGNsYXNzPSdUVFJvdyc+PHRkIGNsYXNzPSdUVFJvd19sZWZ0MTAnIHdpZHRoPSc1MHB4Jz4yMS8wOS85MzwvdGQ+PHRkIHdpZHRoPSc2NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+NDcuNTA8L3RkPjx0ZCB3aWR0aD0nNjVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjQ5LjAwPC90ZD48dGQgd2lkdGg9JzY1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz40NS4wMDwvdGQ+PHRkIHdpZHRoPSc2NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+NDkuMDA8L3RkPjx0ZCB3aWR0aD0nNzBweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjAuMDA8L3RkPjx0ZCB3aWR0aD0nNzBweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjwvdGQ+PHRkIHdpZHRoPSc3NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+PC90ZD48dGQgd2lkdGg9JzEyNXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+MDwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+LTwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+LTwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+NC4wMDwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+MS41MDwvdGQ+PHRkIHdpZHRoPSc1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz5APC90ZD48L3RyPjx0ciBjbGFzcz0nVFRSb3cnPjx0ZCBjbGFzcz0nVFRSb3dfbGVmdDEwJyB3aWR0aD0nNTBweCc+MjIvMDkvOTM8L3RkPjx0ZCB3aWR0aD0nNjVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjQ4LjAwPC90ZD48dGQgd2lkdGg9JzY1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz40OS4wMDwvdGQ+PHRkIHdpZHRoPSc2NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+NDguMDA8L3RkPjx0ZCB3aWR0aD0nNjVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjQ5LjAwPC90ZD48dGQgd2lkdGg9JzcwcHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz4wLjAwPC90ZD48dGQgd2lkdGg9JzcwcHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz48L3RkPjx0ZCB3aWR0aD0nNzVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjwvdGQ+PHRkIHdpZHRoPScxMjVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjA8L3RkPjx0ZCB3aWR0aD0nNDVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPi08L3RkPjx0ZCB3aWR0aD0nNDVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPi08L3RkPjx0ZCB3aWR0aD0nNDVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjEuMDA8L3RkPjx0ZCB3aWR0aD0nNDVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjEuMDA8L3RkPjx0ZCB3aWR0aD0nNXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+QDwvdGQ+PC90cj48dHIgY2xhc3M9J1RUUm93Jz48dGQgY2xhc3M9J1RUUm93X2xlZnQxMCcgd2lkdGg9JzUwcHgnPjI0LzA5LzkzPC90ZD48dGQgd2lkdGg9JzY1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz40Ni4yNTwvdGQ+PHRkIHdpZHRoPSc2NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+NDguNzU8L3RkPjx0ZCB3aWR0aD0nNjVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjQ2LjI1PC90ZD48dGQgd2lkdGg9JzY1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz40OC43NTwvdGQ+PHRkIHdpZHRoPSc3MHB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+MC4wMDwvdGQ+PHRkIHdpZHRoPSc3MHB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+PC90ZD48dGQgd2lkdGg9Jzc1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz48L3RkPjx0ZCB3aWR0aD0nMTI1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz4wPC90ZD48dGQgd2lkdGg9JzQ1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz4tPC90ZD48dGQgd2lkdGg9JzQ1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz4tPC90ZD48dGQgd2lkdGg9JzQ1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz4yLjUwPC90ZD48dGQgd2lkdGg9JzQ1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz4yLjUwPC90ZD48dGQgd2lkdGg9JzVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPkA8L3RkPjwvdHI+PHRyIGNsYXNzPSdUVFJvdyc+PHRkIGNsYXNzPSdUVFJvd19sZWZ0MTAnIHdpZHRoPSc1MHB4Jz4yNy8wOS85MzwvdGQ+PHRkIHdpZHRoPSc2NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+NDUuMDA8L3RkPjx0ZCB3aWR0aD0nNjVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjQ1LjAwPC90ZD48dGQgd2lkdGg9JzY1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz40NS4wMDwvdGQ+PHRkIHdpZHRoPSc2NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+NDUuMDA8L3RkPjx0ZCB3aWR0aD0nNzBweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjAuMDA8L3RkPjx0ZCB3aWR0aD0nNzBweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjwvdGQ+PHRkIHdpZHRoPSc3NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+PC90ZD48dGQgd2lkdGg9JzEyNXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+MDwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+LTwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+LTwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+MC4wMDwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+MC4wMDwvdGQ+PHRkIHdpZHRoPSc1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz5APC90ZD48L3RyPjx0ciBjbGFzcz0nVFRSb3cnPjx0ZCBjbGFzcz0nVFRSb3dfbGVmdDEwJyB3aWR0aD0nNTBweCc+MjgvMDkvOTM8L3RkPjx0ZCB3aWR0aD0nNjVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjQ3LjUwPC90ZD48dGQgd2lkdGg9JzY1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz41MC4wMDwvdGQ+PHRkIHdpZHRoPSc2NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+NDcuNTA8L3RkPjx0ZCB3aWR0aD0nNjVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjQ5LjAwPC90ZD48dGQgd2lkdGg9JzcwcHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz4wLjAwPC90ZD48dGQgd2lkdGg9JzcwcHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz48L3RkPjx0ZCB3aWR0aD0nNzVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjwvdGQ+PHRkIHdpZHRoPScxMjVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjA8L3RkPjx0ZCB3aWR0aD0nNDVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPi08L3RkPjx0ZCB3aWR0aD0nNDVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPi08L3RkPjx0ZCB3aWR0aD0nNDVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjIuNTA8L3RkPjx0ZCB3aWR0aD0nNDVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjEuNTA8L3RkPjx0ZCB3aWR0aD0nNXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+QDwvdGQ+PC90cj48dHIgY2xhc3M9J1RUUm93Jz48dGQgY2xhc3M9J1RUUm93X2xlZnQxMCcgd2lkdGg9JzUwcHgnPjI5LzA5LzkzPC90ZD48dGQgd2lkdGg9JzY1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz40Ny41MDwvdGQ+PHRkIHdpZHRoPSc2NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+NTMuNzU8L3RkPjx0ZCB3aWR0aD0nNjVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjQ3LjUwPC90ZD48dGQgd2lkdGg9JzY1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz41Mi4wMDwvdGQ+PHRkIHdpZHRoPSc3MHB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+MC4wMDwvdGQ+PHRkIHdpZHRoPSc3MHB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+PC90ZD48dGQgd2lkdGg9Jzc1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz48L3RkPjx0ZCB3aWR0aD0nMTI1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz4wPC90ZD48dGQgd2lkdGg9JzQ1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz4tPC90ZD48dGQgd2lkdGg9JzQ1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz4tPC90ZD48dGQgd2lkdGg9JzQ1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz42LjI1PC90ZD48dGQgd2lkdGg9JzQ1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz40LjUwPC90ZD48dGQgd2lkdGg9JzVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPkA8L3RkPjwvdHI+PHRyIGNsYXNzPSdUVFJvdyc+PHRkIGNsYXNzPSdUVFJvd19sZWZ0MTAnIHdpZHRoPSc1MHB4Jz4zMC8wOS85MzwvdGQ+PHRkIHdpZHRoPSc2NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+NTEuMjU8L3RkPjx0ZCB3aWR0aD0nNjVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjUzLjc1PC90ZD48dGQgd2lkdGg9JzY1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz41MS4yNTwvdGQ+PHRkIHdpZHRoPSc2NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+NTMuNzU8L3RkPjx0ZCB3aWR0aD0nNzBweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjAuMDA8L3RkPjx0ZCB3aWR0aD0nNzBweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjwvdGQ+PHRkIHdpZHRoPSc3NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+PC90ZD48dGQgd2lkdGg9JzEyNXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+MDwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+LTwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+LTwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+Mi41MDwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+Mi41MDwvdGQ+PHRkIHdpZHRoPSc1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz5APC90ZD48L3RyPjx0ciBjbGFzcz0nVFRSb3cnPjx0ZCBjbGFzcz0nVFRSb3dfbGVmdDEwJyB3aWR0aD0nNTBweCc+MS8xMC85MzwvdGQ+PHRkIHdpZHRoPSc2NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+NTIuMDA8L3RkPjx0ZCB3aWR0aD0nNjVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjU0LjAwPC90ZD48dGQgd2lkdGg9JzY1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz41MS41MDwvdGQ+PHRkIHdpZHRoPSc2NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+NTQuMDA8L3RkPjx0ZCB3aWR0aD0nNzBweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjAuMDA8L3RkPjx0ZCB3aWR0aD0nNzBweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjwvdGQ+PHRkIHdpZHRoPSc3NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+PC90ZD48dGQgd2lkdGg9JzEyNXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+MDwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+LTwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+LTwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+Mi41MDwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+Mi4wMDwvdGQ+PHRkIHdpZHRoPSc1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz5APC90ZD48L3RyPjx0ciBjbGFzcz0nVFRSb3cnPjx0ZCBjbGFzcz0nVFRSb3dfbGVmdDEwJyB3aWR0aD0nNTBweCc+NC8xMC85MzwvdGQ+PHRkIHdpZHRoPSc2NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+NTAuMDA8L3RkPjx0ZCB3aWR0aD0nNjVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjU1LjAwPC90ZD48dGQgd2lkdGg9JzY1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz41MC4wMDwvdGQ+PHRkIHdpZHRoPSc2NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+NTMuMDA8L3RkPjx0ZCB3aWR0aD0nNzBweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjAuMDA8L3RkPjx0ZCB3aWR0aD0nNzBweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjwvdGQ+PHRkIHdpZHRoPSc3NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+PC90ZD48dGQgd2lkdGg9JzEyNXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+MDwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+LTwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+LTwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+NS4wMDwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+My4wMDwvdGQ+PHRkIHdpZHRoPSc1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz5APC90ZD48L3RyPjx0ciBjbGFzcz0nVFRSb3cnPjx0ZCBjbGFzcz0nVFRSb3dfbGVmdDEwJyB3aWR0aD0nNTBweCc+NS8xMC85MzwvdGQ+PHRkIHdpZHRoPSc2NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+NTIuNTA8L3RkPjx0ZCB3aWR0aD0nNjVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjU1LjAwPC90ZD48dGQgd2lkdGg9JzY1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz41Mi41MDwvdGQ+PHRkIHdpZHRoPSc2NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+NTUuMDA8L3RkPjx0ZCB3aWR0aD0nNzBweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjAuMDA8L3RkPjx0ZCB3aWR0aD0nNzBweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjwvdGQ+PHRkIHdpZHRoPSc3NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+PC90ZD48dGQgd2lkdGg9JzEyNXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+MDwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+LTwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+LTwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+Mi41MDwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+Mi41MDwvdGQ+PHRkIHdpZHRoPSc1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz5APC90ZD48L3RyPjx0ciBjbGFzcz0nVFRSb3cnPjx0ZCBjbGFzcz0nVFRSb3dfbGVmdDEwJyB3aWR0aD0nNTBweCc+Ni8xMC85MzwvdGQ+PHRkIHdpZHRoPSc2NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+NTMuMDA8L3RkPjx0ZCB3aWR0aD0nNjVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjU1LjAwPC90ZD48dGQgd2lkdGg9JzY1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz41Mi41MDwvdGQ+PHRkIHdpZHRoPSc2NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+NTMuMDA8L3RkPjx0ZCB3aWR0aD0nNzBweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjAuMDA8L3RkPjx0ZCB3aWR0aD0nNzBweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjwvdGQ+PHRkIHdpZHRoPSc3NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+PC90ZD48dGQgd2lkdGg9JzEyNXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+MDwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+LTwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+LTwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+Mi41MDwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+MC4wMDwvdGQ+PHRkIHdpZHRoPSc1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz5APC90ZD48L3RyPjx0ciBjbGFzcz0nVFRSb3cnPjx0ZCBjbGFzcz0nVFRSb3dfbGVmdDEwJyB3aWR0aD0nNTBweCc+Ny8xMC85MzwvdGQ+PHRkIHdpZHRoPSc2NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+NTMuNzU8L3RkPjx0ZCB3aWR0aD0nNjVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjU1LjAwPC90ZD48dGQgd2lkdGg9JzY1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz41My4wMDwvdGQ+PHRkIHdpZHRoPSc2NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+NTUuMDA8L3RkPjx0ZCB3aWR0aD0nNzBweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjAuMDA8L3RkPjx0ZCB3aWR0aD0nNzBweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjwvdGQ+PHRkIHdpZHRoPSc3NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+PC90ZD48dGQgd2lkdGg9JzEyNXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+MDwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+LTwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+LTwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+Mi4wMDwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+MS4yNTwvdGQ+PHRkIHdpZHRoPSc1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz5APC90ZD48L3RyPjx0ciBjbGFzcz0nVFRSb3cnPjx0ZCBjbGFzcz0nVFRSb3dfbGVmdDEwJyB3aWR0aD0nNTBweCc+OC8xMC85MzwvdGQ+PHRkIHdpZHRoPSc2NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+NTUuMDA8L3RkPjx0ZCB3aWR0aD0nNjVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjU3LjUwPC90ZD48dGQgd2lkdGg9JzY1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz41My43NTwvdGQ+PHRkIHdpZHRoPSc2NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+NTUuMDA8L3RkPjx0ZCB3aWR0aD0nNzBweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjAuMDA8L3RkPjx0ZCB3aWR0aD0nNzBweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjwvdGQ+PHRkIHdpZHRoPSc3NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+PC90ZD48dGQgd2lkdGg9JzEyNXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+MDwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+LTwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+LTwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+My43NTwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+MC4wMDwvdGQ+PHRkIHdpZHRoPSc1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz5APC90ZD48L3RyPjx0ciBjbGFzcz0nVFRSb3cnPjx0ZCBjbGFzcz0nVFRSb3dfbGVmdDEwJyB3aWR0aD0nNTBweCc+MTEvMTAvOTM8L3RkPjx0ZCB3aWR0aD0nNjVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjU3LjUwPC90ZD48dGQgd2lkdGg9JzY1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz42MS4yNTwvdGQ+PHRkIHdpZHRoPSc2NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+NTcuNTA8L3RkPjx0ZCB3aWR0aD0nNjVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjYwLjAwPC90ZD48dGQgd2lkdGg9JzcwcHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz4wLjAwPC90ZD48dGQgd2lkdGg9JzcwcHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz48L3RkPjx0ZCB3aWR0aD0nNzVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjwvdGQ+PHRkIHdpZHRoPScxMjVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjA8L3RkPjx0ZCB3aWR0aD0nNDVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPi08L3RkPjx0ZCB3aWR0aD0nNDVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPi08L3RkPjx0ZCB3aWR0aD0nNDVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjMuNzU8L3RkPjx0ZCB3aWR0aD0nNDVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjIuNTA8L3RkPjx0ZCB3aWR0aD0nNXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+QDwvdGQ+PC90cj48dHIgY2xhc3M9J1RUUm93Jz48dGQgY2xhc3M9J1RUUm93X2xlZnQxMCcgd2lkdGg9JzUwcHgnPjEyLzEwLzkzPC90ZD48dGQgd2lkdGg9JzY1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz41OS4wMDwvdGQ+PHRkIHdpZHRoPSc2NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+NjIuNTA8L3RkPjx0ZCB3aWR0aD0nNjVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjU5LjAwPC90ZD48dGQgd2lkdGg9JzY1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz42Mi41MDwvdGQ+PHRkIHdpZHRoPSc3MHB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+MC4wMDwvdGQ+PHRkIHdpZHRoPSc3MHB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+PC90ZD48dGQgd2lkdGg9Jzc1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz48L3RkPjx0ZCB3aWR0aD0nMTI1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz4wPC90ZD48dGQgd2lkdGg9JzQ1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz4tPC90ZD48dGQgd2lkdGg9JzQ1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz4tPC90ZD48dGQgd2lkdGg9JzQ1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz4zLjUwPC90ZD48dGQgd2lkdGg9JzQ1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz4zLjUwPC90ZD48dGQgd2lkdGg9JzVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPkA8L3RkPjwvdHI+PHRyIGNsYXNzPSdUVFJvdyc+PHRkIGNsYXNzPSdUVFJvd19sZWZ0MTAnIHdpZHRoPSc1MHB4Jz4xOS8xMC85MzwvdGQ+PHRkIHdpZHRoPSc2NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+NjAuMDA8L3RkPjx0ZCB3aWR0aD0nNjVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjYzLjc1PC90ZD48dGQgd2lkdGg9JzY1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz42MC4wMDwvdGQ+PHRkIHdpZHRoPSc2NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+NjMuNzU8L3RkPjx0ZCB3aWR0aD0nNzBweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjAuMDA8L3RkPjx0ZCB3aWR0aD0nNzBweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjwvdGQ+PHRkIHdpZHRoPSc3NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+PC90ZD48dGQgd2lkdGg9JzEyNXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+MDwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+LTwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+LTwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+My43NTwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+My43NTwvdGQ+PHRkIHdpZHRoPSc1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz5APC90ZD48L3RyPjx0ciBjbGFzcz0nVFRSb3cnPjx0ZCBjbGFzcz0nVFRSb3dfbGVmdDEwJyB3aWR0aD0nNTBweCc+MjAvMTAvOTM8L3RkPjx0ZCB3aWR0aD0nNjVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjYyLjUwPC90ZD48dGQgd2lkdGg9JzY1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz42Mi41MDwvdGQ+PHRkIHdpZHRoPSc2NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+NTkuMDA8L3RkPjx0ZCB3aWR0aD0nNjVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjU5LjAwPC90ZD48dGQgd2lkdGg9JzcwcHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz4wLjAwPC90ZD48dGQgd2lkdGg9JzcwcHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz48L3RkPjx0ZCB3aWR0aD0nNzVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjwvdGQ+PHRkIHdpZHRoPScxMjVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjA8L3RkPjx0ZCB3aWR0aD0nNDVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPi08L3RkPjx0ZCB3aWR0aD0nNDVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPi08L3RkPjx0ZCB3aWR0aD0nNDVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjMuNTA8L3RkPjx0ZCB3aWR0aD0nNDVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPi0zLjUwPC90ZD48dGQgd2lkdGg9JzVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPkA8L3RkPjwvdHI+PHRyIGNsYXNzPSdUVFJvdyc+PHRkIGNsYXNzPSdUVFJvd19sZWZ0MTAnIHdpZHRoPSc1MHB4Jz4yMS8xMC85MzwvdGQ+PHRkIHdpZHRoPSc2NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+NTcuNTA8L3RkPjx0ZCB3aWR0aD0nNjVweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjYwLjAwPC90ZD48dGQgd2lkdGg9JzY1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz41Ny41MDwvdGQ+PHRkIHdpZHRoPSc2NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+NjAuMDA8L3RkPjx0ZCB3aWR0aD0nNzBweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjAuMDA8L3RkPjx0ZCB3aWR0aD0nNzBweCcgY2xhc3M9J1RUUm93X3JpZ2h0MTAnPjwvdGQ+PHRkIHdpZHRoPSc3NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+PC90ZD48dGQgd2lkdGg9JzEyNXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+MDwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+LTwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+LTwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+Mi41MDwvdGQ+PHRkIHdpZHRoPSc0NXB4JyBjbGFzcz0nVFRSb3dfcmlnaHQxMCc+Mi41MDwvdGQ+PHRkIHdpZHRoPSc1cHgnIGNsYXNzPSdUVFJvd19yaWdodDEwJz5APC90ZD48L3RyPjwvdGFibGU+PHNwYW4gaWQ9J3NwblNwcmVhZCcgY2xhc3M9J3NwblNwcmVhZCcgPiogU3ByZWFkICBILUwgOiBIaWdoLUxvdzsgQy1PIDogQ2xvc2UtT3BlbjxiciAvPkAgU2hhcmVzIHRyYWRlZCBpbiBQaHlzaWNhbCBmb3JtPC9zcGFuPmQCEw8WAh4HVmlzaWJsZWdkAikPFgIfAQUNZGlzcGxheTpub25lOxYCAg0PFgIfCGhkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYLBSVjdGwwMCRDb250ZW50UGxhY2VIb2xkZXIxJGJ0bkRvd25sb2FkBSFjdGwwMCRDb250ZW50UGxhY2VIb2xkZXIxJHJhZF9ubzEFIWN0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkcmFkX25vMgUhY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyMSRyYWRfbm8yBSJjdGwwMCRDb250ZW50UGxhY2VIb2xkZXIxJHJkYkRhaWx5BSRjdGwwMCRDb250ZW50UGxhY2VIb2xkZXIxJHJkYk1vbnRobHkFJGN0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkcmRiTW9udGhseQUjY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyMSRyZGJZZWFybHkFI2N0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkcmRiWWVhcmx5BSNjdGwwMCRDb250ZW50UGxhY2VIb2xkZXIxJGJ0blN1Ym1pdAUmY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyMSRidG5Eb3dubG9hZDE9L8bsmwpKCiW0DcOJb30uo/x66A==" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="EC4662D7" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWWwL9xfDZDAL8np6XAwLvmaf1CAK+z8H0DgLwg7TiDwLfiJHSBALzqKOFDALHqP+oAgKch8nyDwL6iLPPBgKyg7KzAQK+gdXjCQLV943HAwLJyOyPBQL4jIbOBALQ2tKJCQKtqdp2AtPa0okJAq2p8tcBAt3dmY4JAq7B+LwEAoeU1dMNAuiRk8kBAqviwcsCAqvijcgCAqviicgCAqvitcgCAqviscgCAqvivcgCAqviucgCAqvipcgCAqvi4csCAqvi7csCArTigcgCArTijcgCArTiicgCArns69cIAs6hma4MAs6hhcsFAs6hsfACAs6h3Z0KAs6hyboDAs6h9ecIAqWYx/4PAqWY85sHAqWY3/IBAqWYy58JAqWY98QGAqWY4+EPAqWYj40HAqWYu6oMAqWYp9cFAqWY0/wCAuH7uooHAuH7prcMAuH7ko4JAuH7vqsGAuH7qtAPAuH71v0EAuH7wpoMAuH77scFAuH7muMCAq+ZxugBAoyJwJ8FAvvEsuYBAvvEroMIAvvEmrgPAvvE9tUHAvvE4vIOAvvE3q8FApD97LYCApD92NMKApD99LoMApD94NcEApD93IwLApD9yKkCApD9pMUKApD9kOIBApD9jJ8IApD9+LQPAtSekcIKAtSejf8BAtSeucYEAtSeleMLAtSegZgCAtSe/bUJAtSe6dIBAtSexY8IAtSesasPAvjQlaIKAtX30cUDvBzc/v3x0vmzDu9/1UM2MDAzCRE=" />
+</div>
+    
+    <div id="wrap">
+
+<div class="maindiv">
+   
+        
+        
+      <div>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7,IE=EmulateIE9,IE=EmulateIE8,IE=Edge,chrome=1">
+
+<link href="http://www.bseindia.com/include/class/style.css" rel="stylesheet" type="text/css"/>
+<link href="http://www.bseindia.com/include/class/tabcontent.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" type="text/css" href="http://www.bseindia.com/include/class/navigat.css?v=2"/>
+<link rel="stylesheet" href="http://www.bseindia.com/include/class/website.css" type="text/css" media="screen"/> 
+    <link href="http://www.bseindia.com/include/class/autocomplete.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="http://www.bseindia.com/include/class/jqueryGetQuote.css" type="text/css" />
+ 
+    <script src="http://www.bseindia.com/include/js/tabcontent2.js" type="text/javascript"></script>
+
+    <script src="http://www.bseindia.com/include/js/autocomplete.js" type="text/javascript"></script>
+	<!--<script type="text/javascript" src="http://www.bseindia.com/include/js/jquery.tinyscrollbar.min.js"></script>-->
+	<script src="http://www.bseindia.com/include/js/general_v4.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	//	$(document).ready(function(){
+	//		$('#scrollbar1').tinyscrollbar();	
+	//	});
+	</script>
+
+<script type="text/javascript">
+    function ClearTextBox(a) {
+    
+        if (a.value == a.defaultValue) a.value = "";
+    }
+    function FillTextBox(a) {
+        if (a.value == "") a.value = a.defaultValue;
+    }
+   
+    function chk(e) {
+        if (window.event) {
+            var key = window.event.keyCode;
+            if (key == 13) {
+                var btn = document.getElementById('btnGetQuote');
+                //  HiddenValue('hdnIdAsset');
+
+                btn.click();
+                //btn.focus();
+            }
+        }
+    }
+</script>
+
+  <script>
+         function displaymenu(dis) {
+             $('.menu').click(function() {
+                 var tid = $(this).children('a').attr('id');
+                
+                 if (tid == "mar") {
+                     document.getElementById("abt").className = "";
+                     document.getElementById("mar").className = "active";
+                     document.getElementById("pubofs").className = "";
+                     document.getElementById("cor").className = "";
+                     document.getElementById("mem").className = "";
+                     document.getElementById("inv").className = "";
+                     document.getElementById("pro").className = "";
+                     document.getElementById("tra").className = "";
+                     document.getElementById("bse").className = "";
+                     document.getElementById("equsub").className = "active";
+                     document.getElementById("derisub").className = "";
+                     document.getElementById("indsub").className = "";
+                                             document.getElementById("curderisub").className = "";
+            document.getElementById("irdderisub").className = "";
+                                          document.getElementById("slbsub").className = "";
+                     document.getElementById("etfsub").className = "";
+                     document.getElementById("misub").className = "";
+//                     <!--document.getElementById("mfsub").className = ""; -->
+//                     <!--document.getElementById("mtsub").className = ""; -->
+                     document.getElementById("debtsub").className = "";
+                 }
+                 else if (tid == "equsub") {
+                     document.getElementById("abt").className = "";
+                     document.getElementById("mar").className = "active";
+                     document.getElementById("pubofs").className = "";
+                     document.getElementById("cor").className = "";
+                     document.getElementById("mem").className = "";
+                     document.getElementById("inv").className = "";
+                     document.getElementById("pro").className = "";
+                     document.getElementById("tra").className = "";
+                     document.getElementById("bse").className = "";
+                     document.getElementById("equsub").className = "active";
+                     document.getElementById("derisub").className = "";
+                     document.getElementById("indsub").className = "";
+                                             document.getElementById("curderisub").className = "";
+            document.getElementById("irdderisub").className = "";
+                     document.getElementById("slbsub").className = "";
+                     document.getElementById("etfsub").className = "";
+                     document.getElementById("misub").className = "";
+//                     <!--document.getElementById("mfsub").className = ""; -->
+//                     <!--document.getElementById("mtsub").className = ""; -->
+                     document.getElementById("debtsub").className = "";
+                 }
+                 else if (tid == "derisub") {
+                     document.getElementById("abt").className = "";
+                     document.getElementById("mar").className = "active";
+                     document.getElementById("pubofs").className = "";
+                     document.getElementById("cor").className = "";
+                     document.getElementById("mem").className = "";
+                     document.getElementById("inv").className = "";
+                     document.getElementById("pro").className = "";
+                     document.getElementById("tra").className = "";
+                     document.getElementById("bse").className = "";
+                     document.getElementById("equsub").className = "";
+                     document.getElementById("derisub").className = "active";
+                     document.getElementById("indsub").className = "";
+                                             document.getElementById("curderisub").className = "";
+            document.getElementById("irdderisub").className = "";
+                     document.getElementById("slbsub").className = "";
+                     document.getElementById("etfsub").className = "";
+                     document.getElementById("misub").className = "";
+//                     <!--document.getElementById("mfsub").className = ""; -->
+//                     <!--document.getElementById("mtsub").className = ""; -->
+                     document.getElementById("debtsub").className = "";
+                 }
+                 else if (tid == "indsub") {
+                     document.getElementById("abt").className = "";
+                     document.getElementById("mar").className = "active";
+                     document.getElementById("pubofs").className = "";
+                     document.getElementById("cor").className = "";
+                     document.getElementById("mem").className = "";
+                     document.getElementById("inv").className = "";
+                     document.getElementById("pro").className = "";
+                     document.getElementById("tra").className = "";
+                     document.getElementById("bse").className = "";
+                     document.getElementById("equsub").className = "";
+                     document.getElementById("derisub").className = "";
+                    document.getElementById("indsub").className = "active";
+                                            document.getElementById("curderisub").className = "";
+            document.getElementById("irdderisub").className = "";
+                     document.getElementById("slbsub").className = "";
+                     document.getElementById("etfsub").className = "";
+                     document.getElementById("misub").className = "";
+//                     <!--document.getElementById("mfsub").className = ""; -->
+//                     <!--document.getElementById("mtsub").className = ""; -->
+                     document.getElementById("debtsub").className = "";
+                 }
+                 else if (tid == "slbsub") {
+                     document.getElementById("abt").className = "";
+                     document.getElementById("mar").className = "active";
+                     document.getElementById("pubofs").className = "";
+                     document.getElementById("cor").className = "";
+                     document.getElementById("mem").className = "";
+                     document.getElementById("inv").className = "";
+                     document.getElementById("pro").className = "";
+                     document.getElementById("tra").className = "";
+                     document.getElementById("bse").className = "";
+                     document.getElementById("equsub").className = "";
+                     document.getElementById("derisub").className = "";
+                     document.getElementById("indsub").className = "";
+                                             document.getElementById("curderisub").className = "";
+            document.getElementById("irdderisub").className = "";
+                     document.getElementById("slbsub").className = "active";
+                     document.getElementById("etfsub").className = "";
+                     document.getElementById("misub").className = "";
+//                     <!--document.getElementById("mfsub").className = ""; -->
+//                     <!--document.getElementById("mtsub").className = ""; -->
+                     document.getElementById("debtsub").className = "";
+                 }
+                 else if (tid == "etfsub") {
+                     document.getElementById("abt").className = "";
+                     document.getElementById("mar").className = "active";
+                     document.getElementById("pubofs").className = "";
+                     document.getElementById("cor").className = "";
+                     document.getElementById("mem").className = "";
+                     document.getElementById("inv").className = "";
+                     document.getElementById("pro").className = "";
+                     document.getElementById("tra").className = "";
+                     document.getElementById("bse").className = "";
+                     document.getElementById("equsub").className = "";
+                     document.getElementById("derisub").className = "";
+                     document.getElementById("indsub").className = "";
+                                             document.getElementById("curderisub").className = "";
+            document.getElementById("irdderisub").className = "";
+                     document.getElementById("slbsub").className = "";
+                    document.getElementById("etfsub").className = "active";
+                     document.getElementById("misub").className = "";
+                     <!--document.getElementById("mfsub").className = ""; -->
+                     <!--document.getElementById("mtsub").className = ""; -->
+                     document.getElementById("debtsub").className = "";
+                 }
+                 else if (tid == "misub") {
+                     document.getElementById("abt").className = "";
+                     document.getElementById("mar").className = "active";
+                     document.getElementById("pubofs").className = "";
+                     document.getElementById("cor").className = "";
+                     document.getElementById("mem").className = "";
+                     document.getElementById("inv").className = "";
+                     document.getElementById("pro").className = "";
+                     document.getElementById("tra").className = "";
+                     document.getElementById("bse").className = "";
+                     document.getElementById("equsub").className = "";
+                     document.getElementById("derisub").className = "";
+                     document.getElementById("indsub").className = "";
+                                             document.getElementById("curderisub").className = "";
+            document.getElementById("irdderisub").className = "";
+                     document.getElementById("slbsub").className = "";
+                     document.getElementById("etfsub").className = "";
+                     document.getElementById("misub").className = "active";
+                     <!--document.getElementById("mfsub").className = ""; -->
+                     <!--document.getElementById("mtsub").className = ""; -->
+                     document.getElementById("debtsub").className = "";
+                 }
+               
+                
+                 else if (tid == "debtsub") {
+                     document.getElementById("abt").className = "";
+                     document.getElementById("mar").className = "active";
+                     document.getElementById("pubofs").className = "";
+                     document.getElementById("cor").className = "";
+                     document.getElementById("mem").className = "";
+                     document.getElementById("inv").className = "";
+                     document.getElementById("pro").className = "";
+                     document.getElementById("tra").className = "";
+                     document.getElementById("bse").className = "";
+                     document.getElementById("equsub").className = "";
+                     document.getElementById("derisub").className = "";
+                     document.getElementById("indsub").className = "";
+                                             document.getElementById("curderisub").className = "";
+            document.getElementById("irdderisub").className = "";
+                     document.getElementById("slbsub").className = "";
+                     document.getElementById("etfsub").className = "";
+                     document.getElementById("misub").className = "";
+                     <!--document.getElementById("mfsub").className = ""; -->
+                     <!--document.getElementById("mtsub").className = ""; -->
+                     document.getElementById("debtsub").className = "active";
+                 }
+                 
+                 
+                 else if (tid == "curderisub") {
+                     document.getElementById("abt").className = "";
+                     document.getElementById("mar").className = "active";
+                     document.getElementById("pubofs").className = "";
+                     document.getElementById("cor").className = "";
+                     document.getElementById("mem").className = "";
+                     document.getElementById("inv").className = "";
+                     document.getElementById("pro").className = "";
+                     document.getElementById("tra").className = "";
+                     document.getElementById("bse").className = "";
+                     document.getElementById("equsub").className = "";
+                     document.getElementById("derisub").className = "";
+                     document.getElementById("indsub").className = "";
+                                             document.getElementById("curderisub").className = "active";
+            document.getElementById("irdderisub").className = "";
+                     document.getElementById("slbsub").className = "";
+                     document.getElementById("etfsub").className = "";
+                     document.getElementById("misub").className = "";
+                     <!--document.getElementById("mfsub").className = ""; -->
+                     <!--document.getElementById("mtsub").className = ""; -->
+                     document.getElementById("debtsub").className = "";
+                 }
+                 
+                 
+                 else if (tid == "irdderisub") {
+                     document.getElementById("abt").className = "";
+                     document.getElementById("mar").className = "active";
+                     document.getElementById("pubofs").className = "";
+                     document.getElementById("cor").className = "";
+                     document.getElementById("mem").className = "";
+                     document.getElementById("inv").className = "";
+                     document.getElementById("pro").className = "";
+                     document.getElementById("tra").className = "";
+                     document.getElementById("bse").className = "";
+                     document.getElementById("equsub").className = "";
+                     document.getElementById("derisub").className = "";
+                     document.getElementById("indsub").className = "";
+                                             document.getElementById("curderisub").className = "";
+            document.getElementById("irdderisub").className = "active";
+                     document.getElementById("slbsub").className = "";
+                     document.getElementById("etfsub").className = "";
+                     document.getElementById("misub").className = "";
+                     <!--document.getElementById("mfsub").className = ""; -->
+                     <!--document.getElementById("mtsub").className = ""; -->
+                     document.getElementById("debtsub").className = "";
+                 }
+                 
+                 
+                 else
+                     document.getElementById("mar").className = "";
+
+             });
+            
+        if (dis == "1") {
+            document.getElementById("divMktSubMenu").style.display ="block";
+            document.getElementById("dropdown").style.display ="block";
+          
+        }
+        else if (dis == "0") {
+        document.getElementById("dropdown").style.display ="block";
+        document.getElementById("divMktSubMenu").style.display ="none";
+        }
+        else if (dis == "2") {
+       
+            document.getElementById("divMktSubMenu").style.display ="block";
+            document.getElementById("dropdown").style.display = "block";
+        }
+        else if (dis == "3") {
+            document.getElementById("divMktSubMenu").style.display = "none";
+			
+			if(document.getElementById("dropdown").style.display=="block")
+            document.getElementById("dropdown").style.display = "none";
+        }
+		 else if (document.getElementById("dropdown").style.display=="none" && document.getElementById("dropdown").style.display=="block") {
+       
+            document.getElementById("divMktSubMenu").style.display ="block";
+            document.getElementById("dropdown").style.display = "block";
+        }
+    }
+    </script>
+
+    
+<!--topbararea -->
+<div class="topbararea">
+
+<div class="bselogoarea"><a href="http://www.bseindia.com/"><img src="http://www.bseindia.com/include/images/transparent.gif" class="spritemain spritebselogo" width="151" height="64" alt="BSE Ltd" title="BSE Ltd" border="0" /></a></div>
+
+
+
+
+<!--valuetoparea -->
+<div class="valuetoparea">
+
+
+<div style="float:right;" id="divSensexData2">
+
+<div class="newdatetoparea">
+<span style="font-weight:bold; float:left; padding-top:5px; padding-right:10px; color:#ee7a1c;"><a href="#" class="oldbse"></a></span>
+<span class="newdatearea" id="tdcallauction" style="display:none"></span>
+</div>
+
+<div class="newsensexvaluearea">
+<div class="senseximg"><a href="http://www.bseindia.com/sensexview/indexview_new.aspx?index_Code=16&iname=BSE30"><img src="http://www.bseindia.com/include/images/transparent.png" class="spritemain spritesensex" width="115px" height="32px" alt="S&P BSE SENSEX" title="S&P BSE SENSEX" border="0" /></a></div>
+<div class="sensextext" >
+<div class="newsensexvalue" id="tdsp"></div>
+<div class="newsensextext2" id="tdsc"></div>
+
+</div>
+</div>
+
+</div>
+
+
+</div>
+
+<!--valuetoparea -->
+
+<div class="gqandlinksarea">
+
+<div class="toplinksarea">
+<span style="margin-right:24px;">
+
+<span style="margin-right:15px;">
+
+
+<span><a href="http://hindi.bseindia.com/" target="_blank" class="languagelink">??????</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+
+<span ><a href="http://marathi.bseindia.com/" target="_blank" class="languagelink">?????</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+
+<span><a href="http://gujarati.bseindia.com/" target="_blank" class="languagelink">???????</a></span>
+
+
+
+
+ </span>
+
+
+
+</span>
+
+<span><select class="groupsitedownbox" name="myDestination"
+    onchange="this.form.WINDOW_NAMER.value++;
+    ob=this.form.myDestination;
+    window.open(ob.options[ob.selectedIndex].value
+    ,'Window_Name'+this.form.WINDOW_NAMER.value,
+    'toolbar=1,location=1,directories=1,status=1,menubar=1,scrollbars=1,resizable=1,width=1024,height=768')">
+  <option value="#">Group Websites</option>
+  <option value="http://www.bseindia.com/static/markets/mutualfunds/BSEStarMF.aspx?expandable=1">BSE STAR MF</option>
+  <option value="http://www.bsebti.com/">BSE Institute Ltd</option>
+  <option value="http://www.bsesme.com/">BSE SME Platform</option>
+  <option value="http://www.cdslindia.com/">CDSL</option>
+  <option value="http://www.icclindia.com/">ICCL</option>
+  <option value="http://www.mkttech.in/">Marketplace Technologies</option>
+   <option value="http://www.bseindia.com/members/members_portal.aspx?expandable=6">Members Portal</option>
+    <option value="http://www.bseindia.com/rgess">RGESS</option>
+</select>
+<input name="WINDOW_NAMER" type="HIDDEN" value="1">
+
+</span>
+</div>
+
+
+<div class="newgqarea">
+<span class="searchbox">
+<div class="quotetabarea">
+
+<div class="getquotetext"><strong>Get Quote</strong></div>
+
+<div id="gettabs" style=" float:right;" class="quoteindentmenu">
+
+<ul>
+
+<li><a  href="#" rel="tab1" class="selected" style="border-right:1px solid #ffffff;width:45px;">Equity</a></li>
+<li><a  href="#" rel="tab2" style="border-right:1px solid #ffffff;width:73px;">Derivatives</a></li>
+<li><a href='#' rel="tab4" style="width:58px;border-right:1px solid #ffffff;">MF/ETFs</a></li>
+<li><a href="#" rel="tab3" style="width:78px;">Debt/Others</a></li>
+
+
+</ul>
+<br style="clear: left" />
+</div>
+
+<div class="maintabareaquote">
+
+<div id="tab1"  class="tabcontent">
+<div class="quotecontent">
+<!--<input type="text"  class="gettextbox" id="suggestBoxEQ"  value="Enter Scrip Name / Code / ID" onfocus="ClearTextBox(this)"  onblur="FillTextBox(this)" /> -->
+<input id="suggestBoxEQ" type="text"  class="gettextbox"  value="Enter Scrip Name / Code / ID" onfocus="ClearTextBox(this)"  />
+<div id="ajax_response"></div>  
+ 
+</div>
+
+</div>
+
+<div id="tab2" class="tabcontent">
+
+<div class="quotecontent">
+<!--<input type='text'   class="gettextbox"  id='suggestBoxDeri' value="Enter Underlying Index Name  / Scrip Name" onfocus="ClearTextBox(this)" onblur="FillTextBox(this)" /> -->
+<input id="suggestBoxDeri" type="text"  class="gettextbox" value="Enter Underlying Index Name  / Scrip Name"  onfocus="ClearTextBox(this)"   />
+<div id="ajax_responseDeri"></div>  
+    
+</div>
+
+</div>
+
+<div id="tab3" class="tabcontent">
+
+<div class="quotecontent">
+<!--<input type='text'   class="gettextbox"   id='suggestBoxDebt' value="Enter Scrip Name / Code / ID" onfocus="ClearTextBox(this)" onblur="FillTextBox(this)"/>  -->
+
+<input id="suggestBoxDebt" type="text"  class="gettextbox" value="Enter Scrip Name / Code / ID" onfocus="ClearTextBox(this)" />
+<div id="ajax_responseDebt"></div>  
+
+</div>
+</div>
+
+<div id="tab4" class="tabcontent">
+
+
+<div class="quotecontent">
+<!--<input type='text'   class="gettextbox"   id='suggestBoxMF' value="Enter Scrip Name / Code / ID" onfocus="ClearTextBox(this)" onblur="FillTextBox(this)"/>  -->
+
+<input id="suggestBoxMF" type="text"  class="gettextbox"   value="Enter Scrip Name / Code / ID" onfocus="ClearTextBox(this)"/>
+<div id="ajax_responseMF"></div>
+
+</div>
+
+</div>
+
+
+
+</div>
+
+</div>
+
+</span>
+</div>
+
+
+</div>
+
+
+
+<!--torightarea -->
+
+
+<!--torightarea -->
+</div>
+<!--topbararea -->
+ 
+<div class="navigarionarea">
+<div id="container">
+<div class="nav">
+<ul><li class="menu"><a id="abt" onclick="javascript:displaymenu('0');" href="#" >About BSE</a></li> 
+<li><img src="http://www.bseindia.com/include/images/navdivideline.gif"  alt="" border="" /></li>
+<li class="menu"><a id="mar" onclick="javascript:displaymenu('1');"  >Markets</a></li>
+<li><img src="http://www.bseindia.com/include/images/navdivideline.gif" alt="" border="" /></li>
+<li class="menu"><a id="pubofs"  onclick="javascript:displaymenu('0');" href="#" >Public Issues / OFS</a></li>
+<li><img src="http://www.bseindia.com/include/images/navdivideline.gif" alt="" border="" /></li>
+<li class="menu"><a id="cor" href="#" onclick="javascript:displaymenu('0');" >Corporates</a></li>
+<li><img src="http://www.bseindia.com/include/images/navdivideline.gif" alt="" border="" /></li>
+<li class="menu"><a id="mem" onclick="javascript:displaymenu('0');" href="#" >Members</a></li>
+<li><img src="http://www.bseindia.com/include/images/navdivideline.gif" alt="" border="" /></li>
+<li class="menu"><a id="inv" onclick="javascript:displaymenu('0');" href="#" >Investors</a></li>
+<li><img src="http://www.bseindia.com/include/images/navdivideline.gif" alt="" border="" /></li>
+<li class="menu"><a id="pro" onclick="javascript:displaymenu('0');" href="#" >Products &amp; Services</a></li>
+<li><img src="http://www.bseindia.com/include/images/navdivideline.gif" alt="" border="" /></li>
+<li class="menu"><a id="tra" onclick="javascript:displaymenu('0');" href="#" >Training &amp; Certification</a></li>
+<li><img src="http://www.bseindia.com/include/images/navdivideline.gif" alt="" border="" /></li>
+<li class="menu"><a id="bse" onclick="javascript:displaymenu('0');" href="#" >BSE Plus</a></li></ul>
+</div>
+<div class="subnav" id="divMktSubMenu" style="display:none">
+<ul>
+<li class="menu"><a id="equsub" onclick="javascript:displaymenu('2');" href="#">Equity</a></li>
+<li ><img src="http://www.bseindia.com/include/images/subnavdivide.gif" alt="" border="" /></li>
+<li class="menu"><a id="derisub" onclick="javascript:displaymenu('2');"  href="#">Derivatives</a></li>
+<li><img src="http://www.bseindia.com/include/images/subnavdivide.gif" alt="" border="" /></li>
+<li class="menu"><a id="indsub" onclick="javascript:displaymenu('2');" href="#">Indices</a></li>
+<li><img src="http://www.bseindia.com/include/images/subnavdivide.gif" alt="" border="" /></li>
+<li class="menu"><a id="curderisub" onclick="javascript:displaymenu('2');"  href="#">Currency Derivatives</a></li>
+<li><img src="http://www.bseindia.com/include/images/subnavdivide.gif" alt="" border="" /></li>
+<li class="menu"><a id="irdderisub" onclick="javascript:displaymenu('2');"  href="#">IRD</a></li>
+<li><img src="http://www.bseindia.com/include/images/subnavdivide.gif" alt="" border="" /></li>
+<li class="menu"><a id="debtsub" onclick="javascript:displaymenu('2');"  href="#">Debt</a></li>
+<li><img src="http://www.bseindia.com/include/images/subnavdivide.gif" alt="" border="" /></li>
+<li class="menu"><a id="slbsub" onclick="javascript:displaymenu('2');" href="#">SLB</a></li>
+<li><img src="http://www.bseindia.com/include/images/subnavdivide.gif" alt="" border="" /></li>
+<li class="menu"><a id="etfsub" onclick="javascript:displaymenu('2');" href="#">ETFs / Mutual Funds</a></li>
+<li><img src="http://www.bseindia.com/include/images/subnavdivide.gif" alt="" border="" /></li>
+<li class="menu"><a id="misub" onclick="javascript:displaymenu('2');"  href="#">Market Info</a></li>
+<li><img src="http://www.bseindia.com/include/images/subnavdivide.gif" alt="" border="" /></li>
+<li><a href="/markets/MarketInfo/NoticesNCirculars.aspx?expandable=0">Notices &amp; Circulars</a></li>
+<li><img src="http://www.bseindia.com/include/images/subnavdivide.gif" alt="" border="" /></li>
+<li><a href="http://www.bsesme.com/" target="_blank">BSE SME Platform</a></li>
+<li><img src="http://www.bseindia.com/include/images/subnavdivide.gif" alt="" border="" /></li>
+<li><a href="http://www.icclindia.com/" target="_blank">ICCL</a></li>
+
+
+<!--<li class="menu"><a id="mfsub" onclick="javascript:displaymenu('2');"  href="#">Mutual Funds</a></li>
+<li><img src="http://www.bseindia.com/include/images/navdivideline.gif" alt="" border="" /></li> -->
+<!--<li class="menu"><a id="mtsub" onclick="javascript:displaymenu('2');"  href="#">Market Tools</a></li>
+<li><img src="http://www.bseindia.com/include/images/navdivideline.gif" alt="" border="" /></li> -->
+
+
+</ul>
+</div>
+<div id="dropdown" class="loading"></div><!-- #dropdown -->
+</div><!-- end of #container -->
+</div>
+
+
+
+
+
+
+ <script type="text/javascript">
+     Sensex();
+  function Sensex() {
+  var requestUrl;
+       var a = new Date();
+       var mon = a.getMonth();
+       mon = mon + 1;
+       var time = a.getDate() + "" + mon + "" + a.getFullYear() + "" + a.getHours() + "" + a.getMinutes();
+       //var requestUrl = "markets/Equity/SensexData.aspx?" + Math.random();
+       //var strHour = new Date().getHours();
+       var strHour = a.getHours() + "" + a.getMinutes();
+       //var requestUrl = "markets/Equity/SensexData.aspx?" + time;
+   
+       if (parseInt(strHour) <= parseInt(1615) && parseInt(strHour) >= parseInt(9)) {
+           //var requestUrl = "http://www.bseindia.com/Msource/SensexData.aspx?" + time;
+            requestUrl = "http://www.bseindia.com/markets/Equity/SensexData.aspx";
+       }
+       else {
+           //var requestUrl = "http://www.bseindia.com/Msource/SensexData.aspx";
+            requestUrl = "http://www.bseindia.com/markets/Equity/SensexData.aspx";
+       }
+
+       var xmlHttp2 = this.ajaxFunction()
+       xmlHttp2.onreadystatechange = function() {
+           if (xmlHttp2.readyState == 4) {
+               var resp = xmlHttp2.responseText;
+
+               if (resp.indexOf("bse") == -1)
+               { return; }
+               else {
+                   var TimeContent;
+                   arr1 = resp.split('$#$')
+                   //alert(arr1[1])
+                   arr = arr1[1].split('@');
+                   i = 0;
+                   sv1 = "";
+                   sp1 = "";
+                   spImg = "";
+                   spc1 = "";
+                   k = -1;
+
+                   sv1 = arr[1];
+                   sp1 = arr[2] + " " + arr[3];
+                   spImg = arr[2];
+
+
+                   TimeContent = arr[5];
+                   callauc = arr[6];
+
+                   switch (callauc) {
+                       case "2":
+
+                           var objCall = "Close";
+                           break;
+                       case "1":
+
+                           var objCall = "<a style='color:blue' href='http://www.bseindia.com/markets/Equity/map.aspx?expandable=0'>Pre-open</a>";
+                           break;
+                       case "0":
+
+                           var objCall = "Open";
+                           break;
+                   }
+                   document.getElementById("tdcallauction").innerHTML = TimeContent + " | " + objCall;
+                   document.getElementById("tdsp").innerHTML = sv1;
+                   document.getElementById("tdsc").innerHTML = sp1 + "%";
+                   //$("#tdcallauction").text(TimeContent + " | " + objCall);
+                   //$("#tdsp").text(sv1);
+                  // $("#tdsc").text(sp1 + "%");
+
+                   if (spImg < 0) {
+                       $("#tdsc").addClass("newsensexred");
+                   }
+                   else if (spImg > 0) {
+                       $("#tdsc").addClass("newsensexgreen");
+                   }
+                   else {
+                       $("#tdsc").addClass("newsensexnone");
+                   }
+
+               }
+           }
+       }
+       xmlHttp2.open("GET", requestUrl, true);
+       xmlHttp2.send(null);
+   }
+ </script>  
+     
+
+<script type="text/javascript">
+
+    setInterval('Sensex()', 60000);
+
+</script>
+
+ <script type="text/javascript" language="JavaScript" src="http://www.bseindia.com/include/js/jQuery1.7.2.js"></script>
+<script type="text/javascript" src="http://www.bseindia.com/include/js/getquote.js"></script>  
+
+<script type="text/javascript">
+    var mypets = new ddtabcontent("gettabs")
+    mypets.setpersist(true)
+    mypets.setselectedClassTarget("link")
+    mypets.init(0)
+</script>
+
+
+
+ 
+
+  
+
+</div>  
+        
+        <br /><br />
+ <div class="innergooglead">
+   
+   
+   <table width="999" border="0" align="center" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center">
+   
+   <div style="background-color:#ffffff;width: 728px;"> <script type="text/javascript">
+                                    google_ad_client = 'ca-bseindia-ab_site_js'; //'ca-partner-js'; // substitute your client_id ca-googletest
+                                    google_ad_channel = 'equity_top_728x90'; // substitute your channel
+                                    google_ad_output = 'js'; // leave this value as js
+                                    google_max_num_ads = '3'; // specify the number of maximum ads
+                                    google_ad_type = 'text,image,flash'; // type of ads to display
+                                    google_safe = 'high'; // specify the ad safety
+                                    google_image_size = '728x90';
+                                    google_language = 'en';
+                                    google_ad_width = 728;
+                                    google_ad_height = 90;
+
+                                    if (google_ad_type.indexOf(google_last_ad_type) > -1)
+                                        google_skip = google_num_ads;      
+                                </script>
+
+    <div style="width: 728px; vertical-align: top; border: 1px solid #E6EEF1;">
+                                    <script language="JavaScript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+
+                                </div>  </div>     
+                                            
+                                             </td>
+  </tr>
+</table>
+             
+                                            </div>
+   
+   
+   
+   
+   
+   
+   <div class="innermiddlearea">
+   
+   
+   <div class="leftmenuarea">
+   
+   <div style="float:left">
+           <!--This is the first division of left-->
+          <div class="arrowlistmenu">
+          <h3 class="menuheader expandable">&nbsp;&nbsp; Pre-open Session</h3>
+<ul class="categoryitems">
+<li><a href="http://www.bseindia.com/markets/Equity/newsensexstream.aspx?expandable=0">Streamer</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/Introduction.aspx?expandable=0">Introduction</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/salient_features.aspx?expandable=0">Salient Features</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/advantages.aspx?expandable=0">Advantages</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/session_timings.aspx?expandable=0">Session Timings</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/price_determination.aspx?expandable=0">Price Determination</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/examples.aspx?expandable=0">Examples</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/dissemination.aspx?expandable=0">Information Dissemination </a></li>
+<li><a href="http://www.bseindia.com/markets/equity/computation.aspx?expandable=0">Index Computation + RMS</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/screen_shots.aspx?expandable=0">System Screen Shots</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/FAQS.aspx?expandable=0">FAQs</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/list_new.aspx?expandable=0">Eligible Stocks</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/notices.aspx?expandable=0">Notices</a></li>
+
+<li><a href="http://www.bseindia.com/downloads/Pre-open_marketdepthdisplay.zip">Market Depth Display</a></li>
+</ul>
+          
+          <h3 class="menuheader expandable">&nbsp;&nbsp; Special Pre Open</h3>
+<ul class="categoryitems">
+<li><a href="http://www.bseindia.com/markets/equity/listingstream.aspx?expandable=1">Streamer</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/Introductionsp.aspx?expandable=1">Introduction</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/salient_features_sp.aspx?expandable=1">Salient Features</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/session_timings_sp.aspx?expandable=1">Session Timings</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/price_determination_sp.aspx?expandable=1">Price Determination</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/dissemination_sp.aspx?expandable=1">Information Dissemination </a></li>
+<li><a href="http://www.bseindia.com/markets/equity/FAQS_sp.aspx?expandable=1">FAQs</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/risk_sp.aspx?expandable=1">Risk Management</a></li>
+<li><a href="/markets/MarketInfo/DispNoticesNCirculars.aspx?expandable=1&page=20120216-29">Notices</a></li>
+
+</ul>
+
+
+
+
+
+<h3 class="menuheader expandable">&nbsp;&nbsp; Live Reports</h3>
+<ul class="categoryitems">
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/MarketWatch.aspx?expandable=2">Market Watch</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/mktwatchR.aspx?expandable=2&filter=gainer*all$all$">Gainers</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/mktwatchR.aspx?expandable=2&filter=loser*all$all$">Losers</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/advdec.aspx?expandable=2">Advances / Declines</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/Missprtvol.aspx?expandable=2">Spurt in Volume</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/CFSummary.aspx?expandable=2">Circuit Summary </a>
+<div class="submenu">
+<ol>
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/CircuitFillter.aspx?expandable=2">Circuit Filter</a></li>
+</ol>
+</div>
+
+</li>
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/HighLow.aspx?expandable=2">52 weeks Highs / Lows</a></li>
+<li><a href="http://www.bseindia.com/markets/Equity/EQReports/industrywatchList.aspx?expandable=2">Industry Watch</a><font style="font-size:9px" color="#FF0000"><sup>New</sup></font></li>
+
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/TradeSummary.aspx?expandable=2">Trading Summary</a><font style="font-size:9px" color="#FF0000"><sup>New</sup></font></li>
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/margin.aspx?expandable=2">VaR / EL Margin</a></li>
+</ul>
+ 
+<h3 class="menuheader expandable">&nbsp;&nbsp; End-of-Day-Reports</h3>
+<ul class="categoryitems">
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/tradhigh.aspx?expandable=3">Trading Highlights </a></li> 
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/TopMarketCapitalization.aspx?expandable=3">Companies by Market Capitalization</a><font style="font-size:9px" color="#FF0000"><sup>New</sup></font></li> 
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/categorywise_turnover.aspx?expandable=3">Investor Categorywise Turnover</a></li>    
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/GrossShortPos.aspx?expandable=3&flag=0">Gross Deliverables</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx?expandable=3">Bulk Deals</a></li> 
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/block_deals.aspx?expandable=3">Block Deals</a></li> 
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/margin_trad.aspx?expandable=3">Margin Trading</a></li> 
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/slbshortcell.aspx?expandable=3&param=0">Short Sell</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/oddlot.aspx?expandable=3">Odd Lot Market Statistics</a></li> 
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/BhavCopyDebt.aspx?expandable=3">Bhav Copy</a></li> 
+</ul>
+
+<h3 class="menuheader expandable">&nbsp;&nbsp; Periodic Updates</h3>
+<ul class="categoryitems">
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/varmargin.aspx?expandable=4&flag=0">Impact Cost</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/varmargin.aspx?expandable=4&flag=1">VaR Margin Groups</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/setcal.aspx?expandable=4">Settlement Calendar</a></li> 
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/Cmmode.aspx?expandable=4">Mode of Trading Data</a></li>  
+</ul>
+
+
+
+          <h3 class="menuheader expandable">&nbsp;&nbsp; Illiquid Scrips</h3>
+<ul class="categoryitems">
+<li><a href="http://www.bseindia.com/markets/Equity/EQReports/Illiquid_Scrips.aspx?expandable=5">Market Watch</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/pca_intro.aspx?expandable=5">Introduction</a></li>
+<li><a href="http://www.bseindia.com/investors/illiquidscrips.aspx?expandable=4">Eligible Stocks</a></li>
+<li><a href="http://www.bseindia.com/download/markets/equity/FAQ-Periodic%20Call%20Auction%20Session.pdf" target="_blank">FAQs</a></li>
+
+</ul>
+
+
+
+<h3 class="menuheader expandable">&nbsp;&nbsp; Market Information</h3>
+<ul class="categoryitems">
+<li class="nolink">Trading & Settlement</a>
+<div class="submenu">
+<ol>
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/tra_trading.aspx?expandable=6">Trading</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/tra_Settlement.aspx?expandable=6">Settlement</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/tra_Shortage.aspx?expandable=6">Shortages</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/tra_Auctions.aspx?expandable=6">Auctions</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/tra_Self-AuctionCloseout.aspx?expandable=6">Self - Auction Close Out</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/tra_Rectification.aspx?expandable=6">Rectification of Bad Deliveries</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/tra_Company_obj.aspx?expandable=6">Company Objections</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/tra_Bulk_Deals.aspx?expandable=6">Bulk Deals</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/tra_Block_Deals.aspx?expandable=6">Block Deals</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/tra_Shortselling.aspx?expandable=6">Short Selling</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/tra_marging.aspx?expandable=6">Margining of Institutional Trades</a></li> 
+</ol>
+</div>
+</li>
+<li class="nolink">Risk Management
+<div class="submenu">
+<ol>
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/risk_Total_Liquid_assets.aspx?expandable=6">Total Liquid assets</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/risk_Margins.aspx?expandable=6">Margins</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/risk_Capital_Cushion .aspx?expandable=6">Capital Cushion Requirements</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/risk_Monitoring.aspx?expandable=6">Monitoring Business of Brokers</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/risk_Bolt_deactivation.aspx?expandable=6">BOLT Deactivation</a></li>
+</ol>
+</div>
+</li>
+<li class="nolink">Surveillance
+<div class="submenu">
+<ol>
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/sur_Surveillance.aspx?expandable=6">Surveillance</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/sur_Price_monitoring.aspx?expandable=6">Price Monitoring</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/sur_Investigation.aspx?expandable=6">Investigation</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/sur_Position Monitoring.aspx?expandable=6">Position Monitoring</a></li>
+</ol>
+</div>
+</li>
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/Rectification_baddelivery.aspx?expandable=6">Rectification of Bad Delivery</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/safetymarket.aspx?expandable=6">Safety of the Markets</a></li>
+
+
+</ul>
+
+<h3 class="menuheader expandable">&nbsp;&nbsp; Historical Data</h3>
+<ul class="categoryitems">
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/StockPrcHistori.aspx?expandable=7&flag=0">Stock Prices</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/GrossDeliverables.aspx?expandable=7">BSE Gross Deliverables</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/StockPrcHistori.aspx?expandable=7&flag=1">Investor Categorywise Turnover</a></li>  
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/Eq.aspx?expandable=7">Day-Wise Trading Highlight</a></li>  
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/BulknBlockDeals.aspx?expandable=7">Bulk Deals / Block Deals</a></li>  
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/GrossDel.aspx?expandable=7&flag=1">Margin Trading</a></li>
+<li><a href="http://www.bseindia.com/markets/Equity/EQReports/Tradinghighlights_histroical.aspx?expandable=7">Trading Highlights</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/ScripwiseHighLow.aspx?expandable=7">Scripwise High Low</a></li> 
+<li><a href="http://www.bseindia.com/markets/Equity/EQReports/Historical_EquitySegment.aspx?expandable=7">Equity Market Summary</a></li> 
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/settlement_stats.aspx?expandable=7">Settlement Statistics</a></li>
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/illiquidScrips_Hist.aspx?expandable=7"> Illiquid Scrips</a></li> 
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/MostActiveScrips.aspx?expandable=7">Most Active Scrips</a></li> 
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/VaRELMargin.aspx?expandable=7">Var Margin</a></li> 
+<li><a href="http://www.bseindia.com/markets/equity/EQReports/OddLotStatistics.aspx?expandable=7">Odd Lot Statistics</a></li> 
+<li><a href="http://www.bseindia.com/markets/Equity/EQReports/AdvDecl_Hist.aspx?expandable=7">Advances and Declines</a></li> 
+
+
+
+
+
+ 
+</ul>
+
+<div class="blanktab"><a href="http://www.bseindia.com/SensexView/MarketlastWeek.aspx" class="blanktablink">&nbsp;&nbsp; Markets Last Week</a></div>
+
+</div>
+           <!--Code for menu ends here-->
+         </div>
+   
+   
+   </div>
+   
+   
+   
+   
+   <div>
+   
+   
+    <script language="javascript" src="../../../include/js/EquityCalendarControl.js" type="text/javascript"></script>
+ <link rel="Stylesheet" href="../../../include/class/CalendarControl.css" type="text/css" />
+ 
+ 
+<link rel="stylesheet" href="http://www.bseindia.com/include/class/jqueryGetQuote.css"
+        type="text/css" />
+ 
+ 
+
+         <input name="ctl00$ContentPlaceHolder1$hdnCode" type="hidden" id="ctl00_ContentPlaceHolder1_hdnCode" value="517334" />
+ <script src="../../../include/js/smartNewSearch.js" type="text/javascript"></script>
+ <script src="../../../include/js/newSmartSearch_ETF.js" type="text/javascript"></script>
+<script type="text/javascript">
+    function fnClickHere() {
+        window.open('Notes.htm', 'fiinotes', 'toolbar=no,location=no,menubar=no,scrollbars=yes,width=450,height=460');
+    }
+
+    function showalert() {
+        var key = window.event.keyCode ? window.event.keyCode : window.event.charCode;
+        if (key == 8) {
+            return false;
+        }
+        else {
+            return true;
+        }
+    }
+
+    function clearText(e, ctrl) {
+        var key = e.charCode ? e.charCode : e.keyCode;
+        if (key == 8) {
+            var textDate = document.getElementById(ctrl);
+            textDate.value = "";
+        }
+    }
+    function ClearTextBox(a) {
+        if (a.value == a.defaultValue) a.value = "";
+    }
+    function FillTextBox(a) {
+        //alert('defaultValue'+a.defaultValue);
+        if (a.value == "") a.value = a.defaultValue;
+    }
+    function ChangeDMYVal(Text) {
+        var varhiddmy;
+        var varMonth;
+        var varYear;
+        var varYearly = document.getElementById('ctl00_ContentPlaceHolder1_cmbYearly'); 
+        var varFromDate = document.getElementById('ctl00_ContentPlaceHolder1_txtFromDate');
+        var varToDate = document.getElementById('ctl00_ContentPlaceHolder1_txtToDate');
+        var varhidYear = document.getElementById('ctl00_ContentPlaceHolder1_hidYear');
+      
+        var varimgFromDate = document.getElementById('imgCal');
+        var varimgToDate = document.getElementById('imgCal1');
+
+        varhiddmy = document.getElementById('ctl00_ContentPlaceHolder1_hidDMY');
+        varMonth = document.getElementById('ctl00_ContentPlaceHolder1_cmbMonthly');
+        varYear = document.getElementById('ctl00_ContentPlaceHolder1_cmbMYear');
+        varhidYear.value = '';
+
+        if (Text == 'D') {
+            varMonth.disabled = true;
+            varMonth.value = '0';
+            varYear.disabled = true;
+            varYear.value = 'YYYY';
+            varYearly.disabled = true;
+            varYearly.value = 'YYYY';
+            varFromDate.disabled = false;
+            varToDate.disabled = false;
+            varimgFromDate.style.cursor = 'pointer';
+            varimgToDate.style.cursor = 'pointer';
+
+            if (!(varimgFromDate.onclick)) {
+                varimgFromDate.onclick = varimgFromDate._onclick;
+                varimgFromDate._onclick = null;
+            }
+            if (!(varimgToDate.onclick)) {
+                varimgToDate.onclick = varimgToDate._onclick;
+                varimgToDate._onclick = null;
+            }
+
+        }
+        else if (Text == 'M') {
+            varMonth.disabled = false;
+            varYear.disabled = false;
+            varFromDate.disabled = true;
+            varFromDate.value = '';
+            varToDate.disabled = true;
+            varToDate.value = '';
+            varimgFromDate.style.cursor = 'default';
+            varimgToDate.style.cursor = 'default';
+            varYearly.disabled = true;
+            varYearly.value = 'YYYY';
+            if (varimgFromDate.onclick) {
+                varimgFromDate._onclick = varimgFromDate.onclick;
+                varimgFromDate.onclick = null;
+            }
+            if (varimgToDate.onclick) {
+                varimgToDate._onclick = varimgToDate.onclick;
+                varimgToDate.onclick = null;
+            }
+        }
+        else if (Text == "Y") {
+            varYearly.disabled = false;
+            varMonth.disabled = true;
+            varMonth.value = '0';
+            varYear.disabled = true;
+            varYear.value = 'YYYY';
+            varFromDate.disabled = true;
+            varFromDate.value = '';
+            varToDate.disabled = true;
+            varToDate.value = '';
+            varimgFromDate.style.cursor = 'default';
+            varimgToDate.style.cursor = 'default';
+
+            if (varimgFromDate.onclick) {
+                varimgFromDate._onclick = varimgFromDate.onclick;
+                varimgFromDate.onclick = null;
+            }
+            if (varimgToDate.onclick) {
+                varimgToDate._onclick = varimgToDate.onclick;
+                varimgToDate.onclick = null;
+            }
+        }
+        varhiddmy.value = Text;
+    }
+
+    function onChange() {
+        var varCmbYear = document.getElementById('ctl00_ContentPlaceHolder1_cmbMYear');
+        var varhidYear = document.getElementById('ctl00_ContentPlaceHolder1_hidYear');
+        varhidYear.value = varCmbYear.value;
+    }
+    function onChangeYearly() {
+        var varCmbYear = document.getElementById('ctl00_ContentPlaceHolder1_cmbYearly');
+        var varhidYear = document.getElementById('ctl00_ContentPlaceHolder1_hidYear');
+        varhidYear.value = varCmbYear.value;
+    }
+    function onbtnSubmit_Click() {
+        var errMsg = '';
+        var strDate;
+        var varFromDate = document.getElementById("ctl00_ContentPlaceHolder1_txtFromDate");
+        var varToDate = document.getElementById("ctl00_ContentPlaceHolder1_txtToDate");
+        var varhiddmy = document.getElementById("ctl00_ContentPlaceHolder1_hidDMY");
+        var varhdflag = document.getElementById("ctl00_ContentPlaceHolder1_hdflag");
+        var txtHidCRDate = document.getElementById("ctl00_ContentPlaceHolder1_hidCurrentDate");
+
+        var vartxtScripCD = document.getElementById('ctl00_ContentPlaceHolder1_GetQuote1_smartSearch');
+        var vartxtScripCD1 = document.getElementById('ctl00_ContentPlaceHolder1_GetQuote1_smartSearch2');
+        var rad_no1 = document.getElementById('ctl00_ContentPlaceHolder1_rad_no1');
+        var rad_no2 = document.getElementById('ctl00_ContentPlaceHolder1_rad_no2');
+        var _FDate;
+
+        if (varhdflag.value == "0") {
+           
+            if (rad_no1.checked) {
+                if (vartxtScripCD.value == '' || vartxtScripCD.value == 'Enter Scrip Name / Code / ID') {
+                    alert('Please enter either Scrip Code or Company name.');
+                    return false;
+                }
+            }
+            else if (rad_no2.checked) {
+                if (vartxtScripCD1.value == '' || vartxtScripCD1.value == 'Enter Scrip Name / Code / ID') {
+                    alert('Please enter either Scrip Code or Company name.');
+                    return false;
+                }
+            }
+
+        }
+
+            if (varhiddmy.value == "D") {
+            if (varFromDate.value =='') {
+                alert('Please Select From Date.');
+                return false;
+            }
+            else {
+                errMsg = date_validator(varFromDate.value);
+                if (errMsg != '') {
+                    alert("Error Date :" + errMsg);
+                    varFromDate.focus();
+                    return false;
+                }
+                else {
+                    strDate = varFromDate.value.toString().split("/");
+                    var varDate = strDate[1] + "/" + strDate[0] + "/" + strDate[2];
+                    var CRDate = new Date(txtHidCRDate.value);
+                    varDate = new Date(varDate);
+                    _FDate = varDate;
+                    if (varDate > CRDate) {
+                        alert('FromDate can not be greater than Current Date.');
+                        varFromDate.focus();
+                        return false;
+                    }
+                }
+            }
+
+            if (varToDate.value == '') {
+                alert('Please Select To Date');
+                return false;
+            }
+            else {
+                errMsg = date_validator(varToDate.value);
+                if (errMsg != '') {
+                    alert("Error Date :" + errMsg);
+                    varToDate.focus();
+                    return false;
+                }
+                else {
+                    strDate = varToDate.value.toString().split("/");
+                    var varDate = strDate[1] + "/" + strDate[0] + "/" + strDate[2];
+                    var CRDate = new Date(txtHidCRDate.value);
+                    varDate = new Date(varDate);
+                    if (varDate > CRDate) {
+                        alert('ToDate can not be greater than Current Date.');
+                        varToDate.focus();
+                        return false;
+                    }
+                    if (_FDate > varDate) {
+                        alert('ToDate can not be less than From Date.');
+                        varToDate.focus();
+                        return false;
+                    }
+                }
+            }
+
+        }
+        else if (varhiddmy.value == "M") {
+       
+        var varhidYear = document.getElementById('ctl00_ContentPlaceHolder1_hidYear');
+        var varcmbMonth = document.getElementById('ctl00_ContentPlaceHolder1_cmbMonthly');
+        var orderText = varcmbMonth.options[varcmbMonth.selectedIndex].text;
+        var orderValue = varcmbMonth.options[varcmbMonth.selectedIndex].value;
+       
+        var varcmbYear = document.getElementById('ctl00_ContentPlaceHolder1_cmbMYear');
+        var orderTextY = varcmbYear.options[varcmbYear.selectedIndex].text;
+        var orderValueY = varcmbYear.options[varcmbYear.selectedIndex].value;
+        var strDate;
+        if (orderText == "MMM") {
+                alert('Please Select Month.');
+                return false;
+            }
+            if (orderTextY == "YYYY") {
+                alert('Please Select Year.');
+                return false;
+            }
+            strDate = orderValue + "/" + "01" + "/" + orderValueY;
+            strDate = new Date(strDate);
+            var crDate = new Date(txtHidCRDate.value);
+            if (strDate > crDate) {
+                alert('Selected date can not be greater than Current Date.');
+                varcmbMonth.focus();
+                return false;
+            }
+        }
+        else if (varhiddmy.value == "Y") {
+             var varhidYear = document.getElementById("ctl00_ContentPlaceHolder1_hidYear");
+             var varcmbyear = document.getElementById("ctl00_ContentPlaceHolder1_cmbYearly");
+             var orderTextY = varcmbyear.options[varcmbyear.selectedIndex].text;
+             var orderValueY = varcmbyear.options[varcmbyear.selectedIndex].value;
+
+        if (orderValueY =="YYYY") {
+                alert('Please Select Year.');
+                return false;
+            }
+        }
+        return true;
+    }
+    function onBodyLoad() {
+        alert(hidDMY.value);
+        var hidDMY = document.getElementById('ctl00_ContentPlaceHolder1_hidDMY');
+        var varimgFromDate = document.getElementById('imgCal');
+        var varimgToDate = document.getElementById('imgCal1');
+
+        if (hidDMY.value == 'M' || hidDMY.value == 'Y') {
+            if (varimgFromDate.onclick) {
+                varimgFromDate._onclick = varimgFromDate.onclick;
+                varimgFromDate.onclick = null;
+            }
+            if (varimgToDate.onclick) {
+                varimgToDate._onclick = varimgToDate.onclick;
+                varimgToDate.onclick = null;
+            }
+            varimgFromDate.style.cursor = 'default';
+            varimgToDate.style.cursor = 'default';
+        }
+        else {
+            if (!(varimgFromDate.onclick)) {
+                varimgFromDate.onclick = varimgFromDate._onclick;
+                varimgFromDate._onclick = null;
+            }
+            if (!(varimgToDate.onclick)) {
+                varimgToDate.onclick = varimgToDate._onclick;
+                varimgToDate._onclick = null;
+            }
+            varimgFromDate.style.cursor = 'pointer';
+            varimgToDate.style.cursor = 'pointer';
+
+        }
+    }
+    </script>
+    
+    
+    <script language="javascript" type="text/javascript">
+
+
+
+        function cleartext1(a) {
+            //  alert(""+a);
+
+            if (a.value == "Enter Scrip Name / Code / ID")
+                a.value = '';
+
+        }
+
+        function FillTextBox(a) {//alert("hiii");
+            a.value = "Enter Scrip Name / Code / ID";
+        }
+        function noenter(e) {
+           // alert("e"+e);
+            var unicode = e.charCode ? e.charCode : e.keyCode
+            if (unicode == 13) {
+                xyz();
+            }
+        }
+        function chkkey(e, objtxtinput) {
+            var unicode = e.charCode ? e.charCode : e.keyCode
+            if ( unicode == 95 || unicode == 37 || unicode == 42 || unicode == 64 || unicode == 35 || unicode == 36 || unicode == 33 || unicode == 94 || unicode == 91 || unicode == 93) {
+                return false;
+            }
+            else
+                return true;
+        }
+
+        function noenterw(e) {
+            var unicode = e.charCode ? e.charCode : e.keyCode
+            if (unicode == 13)
+                return false
+        }
+     </script>
+
+
+     <script language="javascript" type="text/javascript">
+
+
+
+         function cleartext11(a) {
+             //  alert(""+a);
+
+             if (a.value == "Enter Scrip Name / Code / ID")
+                 a.value = '';
+
+         }
+
+         function FillTextBox1(a) {//alert("hiii");
+             a.value = "Enter Scrip Name / Code / ID";
+         }
+         function noenter1(e) {
+             // alert("e"+e);
+             var unicode = e.charCode ? e.charCode : e.keyCode
+             if (unicode == 13) {
+                 xyz_mf();
+             }
+         }
+         function chkkey1(e, objtxtinput) {
+             var unicode = e.charCode ? e.charCode : e.keyCode
+             if (unicode == 95 || unicode == 37 || unicode == 42 || unicode == 64 || unicode == 35 || unicode == 36 || unicode == 33 || unicode == 94 || unicode == 91 || unicode == 93) {
+                 return false;
+             }
+             else
+                 return true;
+         }
+
+         function noenterw1(e) {
+             var unicode = e.charCode ? e.charCode : e.keyCode
+             if (unicode == 13)
+                 return false
+         }
+     </script>
+
+
+
+     <script type="text/javascript" language="javascript">
+     function check()
+     {
+       var rad_no1=document.getElementById('ctl00_ContentPlaceHolder1_rad_no1');
+       var rad_no2 = document.getElementById('ctl00_ContentPlaceHolder1_rad_no2');
+//       var panel1 = document.getElementById('ctl00_ContentPlaceHolder1_Pnl1');
+//       var panel2 = document.getElementById('ctl00_ContentPlaceHolder1_Panel1');
+       if(rad_no1.checked)
+       {
+           document.getElementById('ctl00_ContentPlaceHolder1_Pnl1').style.display = 'block';;
+           document.getElementById('ctl00_ContentPlaceHolder1_Panel1').style.display = 'none';
+           document.getElementById('ctl00_ContentPlaceHolder1_GetQuote1_smartSearch2').value = 'Enter Scrip Name / Code / ID';
+       }
+       else if(rad_no2.checked)
+       {
+           document.getElementById('ctl00_ContentPlaceHolder1_Pnl1').style.display = 'none';
+           document.getElementById('ctl00_ContentPlaceHolder1_Panel1').style.display = 'block';
+           document.getElementById('ctl00_ContentPlaceHolder1_GetQuote1_smartSearch').value = 'Enter Scrip Name / Code / ID';
+       }
+   }
+   function check_ETF() {
+       var rad_no1 = document.getElementById('ctl00_ContentPlaceHolder1_rad_no1');
+       var rad_no2 = document.getElementById('ctl00_ContentPlaceHolder1_rad_no2');
+       rad_no2.checked = true;
+       //       var panel1 = document.getElementById('ctl00_ContentPlaceHolder1_Pnl1');
+       //       var panel2 = document.getElementById('ctl00_ContentPlaceHolder1_Panel1');
+       if (rad_no1.checked) {
+           document.getElementById('ctl00_ContentPlaceHolder1_Pnl1').style.display = 'block'; ;
+           document.getElementById('ctl00_ContentPlaceHolder1_Panel1').style.display = 'none';
+           document.getElementById('ctl00_ContentPlaceHolder1_GetQuote1_smartSearch2').value = 'Enter Scrip Name / Code / ID';
+       }
+    else if(rad_no2.checked)
+       {
+           document.getElementById('ctl00_ContentPlaceHolder1_Pnl1').style.display = 'none';
+           document.getElementById('ctl00_ContentPlaceHolder1_Panel1').style.display = 'block';
+           document.getElementById('ctl00_ContentPlaceHolder1_GetQuote1_smartSearch').value = 'Enter Scrip Name / Code / ID';
+       }
+   }
+      </script>
+
+<input type="hidden" name="ctl00$ContentPlaceHolder1$DDate" id="ctl00_ContentPlaceHolder1_DDate" />
+<input name="ctl00$ContentPlaceHolder1$hidDMY" type="hidden" id="ctl00_ContentPlaceHolder1_hidDMY" value="D" />
+<input name="ctl00$ContentPlaceHolder1$hdflag" type="hidden" id="ctl00_ContentPlaceHolder1_hdflag" value="0" />
+    <input name="ctl00$ContentPlaceHolder1$hidCurrentDate" type="hidden" id="ctl00_ContentPlaceHolder1_hidCurrentDate" value="2/19/2015 12:00:00 AM" />
+    <input name="ctl00$ContentPlaceHolder1$hidYear" type="hidden" id="ctl00_ContentPlaceHolder1_hidYear" />
+    <input name="ctl00$ContentPlaceHolder1$hidFromDate" type="hidden" id="ctl00_ContentPlaceHolder1_hidFromDate" value="01/01/1990" />
+    <input name="ctl00$ContentPlaceHolder1$hidToDate" type="hidden" id="ctl00_ContentPlaceHolder1_hidToDate" value="12/31/2014" />
+    <input name="ctl00$ContentPlaceHolder1$hidOldDMY" type="hidden" id="ctl00_ContentPlaceHolder1_hidOldDMY" />
+     <input name="ctl00$ContentPlaceHolder1$hiddenScripCode" type="hidden" id="ctl00_ContentPlaceHolder1_hiddenScripCode" value="517334" />
+    <input name="ctl00$ContentPlaceHolder1$hidCompanyVal" type="hidden" id="ctl00_ContentPlaceHolder1_hidCompanyVal" value="MOTHERSUMI" />
+<div class="innerrightarea"> 
+<div class="headbcshadediv">
+
+<div class="headbcwhitearea">
+
+<!--bcandshararea -->
+<div class="bcandshararea">
+
+<div class="breadcrumbdiv">
+<span class="blackbredcrumb"><a href="http://www.bseindia.com/" class="bredcrumblink" >Home</a></span>
+<span class="blackbredcrumb"><img src="../../../include/images/nav_bullet.png" alt="" border="0" /></span>  
+<span class="blackbredcrumb">Markets</span>
+<span class="blackbredcrumb"><img src="../../../include/images/nav_bullet.png" alt="" border="0" /></span>     
+<span class="blackbredcrumb">Equity</span> 
+<span class="blackbredcrumb"><img src="../../../include/images/nav_bullet.png" alt="" border="0" /></span>      
+<span class="blackbredcrumb">Historical Data</span>  
+<span class="blackbredcrumb"><img src="../../../include/images/nav_bullet.png" alt="" border="0" /></span>      
+<span class="activatebcrumb"><span id="ctl00_ContentPlaceHolder1_lblMainHead">Stock Prices</span></span>
+
+</div>
+
+
+<div class="shrearea">
+ 
+ <span Class="blackbredcrumb">
+Download All Record <input type="image" name="ctl00$ContentPlaceHolder1$btnDownload" id="ctl00_ContentPlaceHolder1_btnDownload" alt="" border="0" src="../../../include/images/excelicon.gif" onclick="return onbtnSubmit_Click() ;" style="border-width:0px;" />
+ </span>
+
+
+</div>
+
+
+</div>
+<!--bcandshararea -->
+
+
+<div class="greyline"></div>
+
+
+
+<!--headingdatearea -->
+<div class="headingdatearea">
+
+<div class="headingdiv">
+<span id="ctl00_ContentPlaceHolder1_lblHeader">Stock Prices</span>
+
+</div>
+
+
+<div class="contentdatearea">
+<span class="datetext" ></span> 
+  </div>
+
+
+</div> 
+<!--headingdatearea -->
+
+
+
+
+</div>
+
+
+</div>
+<div class="searchshadediv">
+
+<div class="searchwhitearea">
+
+<div class="contenttypearea">
+<table id="DMY" cellpadding="1px" cellspacing="4px">
+<tr>
+<td align="center">
+
+</td>
+</tr>
+
+            <tr>
+            <td>
+            <div id="ctl00_ContentPlaceHolder1_divStock" style="display:;">
+            <table>
+            <tr>
+    
+<td>
+<span onchange="javascript:check();"><input id="ctl00_ContentPlaceHolder1_rad_no1" type="radio" name="ctl00$ContentPlaceHolder1$search" value="rad_no1" checked="checked" /><label for="ctl00_ContentPlaceHolder1_rad_no1">Equity</label></span>
+<span onchange="javascript:check();"><input id="ctl00_ContentPlaceHolder1_rad_no2" type="radio" name="ctl00$ContentPlaceHolder1$search" value="rad_no2" /><label for="ctl00_ContentPlaceHolder1_rad_no2">ETF</label></span>
+</td>
+</tr>
+
+            <tr> 
+            <td bgcolor="#ffffff"  align="left">
+            <table cellspacing="4" cellpadding="1" border="0" width="300">
+            <tr>
+            <td style="width:60px" class="TTRow_left"><b>Search</b></td>
+            <td style="width:150px" colspan="1" bgcolor="#FFFFFF" >
+            
+            <div id="ctl00_ContentPlaceHolder1_Pnl1" onkeypress="return noenterw(event);">
+	
+    <input name="ctl00$ContentPlaceHolder1$Hidden1" type="hidden" id="ctl00_ContentPlaceHolder1_Hidden1" />
+    
+    <table width="100%">
+        <tr>
+            <td>
+
+     <input name="ctl00$ContentPlaceHolder1$GetQuote1_smartSearch" type="text" value="MOTHERSON SUMI SYSTEMS LTD" id="ctl00_ContentPlaceHolder1_GetQuote1_smartSearch" class="textbox2" value="Enter Scrip Name / Code / ID" onfocus="cleartext1(this);" onblur="FillTextBox11(this)" onkeypress="javascript:noenter(event);return chkkey(event,this);" autocomplete="off" />
+                <div id="ajax_response_smart"></div>
+                </td>
+        </tr>
+    </table>
+
+</div>
+            
+           
+               
+            
+            
+            <div id="ctl00_ContentPlaceHolder1_Panel1" onkeypress="return noenterw1(event);">
+	
+    <input name="ctl00$ContentPlaceHolder1$Hidden2" type="hidden" id="ctl00_ContentPlaceHolder1_Hidden2" />
+    
+    <table width="100%">
+        <tr>
+            <td>
+
+     <input name="ctl00$ContentPlaceHolder1$GetQuote1_smartSearch2" type="text" value="Enter Scrip Name / Code / ID" id="ctl00_ContentPlaceHolder1_GetQuote1_smartSearch2" class="textbox2" value="Enter Scrip Name / Code / ID" onfocus="cleartext11(this);" onblur="FillTextBox11(this)" onkeypress="javascript:noenter1(event);return chkkey1(event,this);" autocomplete="off" />
+                <div id="ajax_response_smart2"></div>
+                </td>
+        </tr>
+    </table>
+
+</div>
+          
+            </td>
+
+
+            </tr>
+            </table>
+            </td> 
+            </tr>
+            </table>
+            </div>
+            </td>
+            </tr>
+            <tr>
+            <td id="ctl00_ContentPlaceHolder1_tdP" style="display:" class="TTRow_left">
+            <b>Period:</b>
+            </td>
+
+            </tr>
+            <tr>
+            <td class="TTRow" align="center">
+            <table>
+            <tr>
+            <td  bgcolor="#d6d6d6" align="center">
+            <div id="ctl00_ContentPlaceHolder1_divDMY" style="display:;">
+            <table border="0" cellpadding="4px" cellspacing="1px" >
+            <tr>
+            <td align="left" class="TTHeadedefault">
+            <input id="ctl00_ContentPlaceHolder1_rdbDaily" type="radio" name="ctl00$ContentPlaceHolder1$DMY" value="rdbDaily" checked="checked" onclick="ChangeDMYVal('D');" /><label for="ctl00_ContentPlaceHolder1_rdbDaily">Daily</label>
+            </td>
+            <td bgcolor="#ffffff" align="left">From :&nbsp;&nbsp;
+            <input name="ctl00$ContentPlaceHolder1$txtFromDate" type="text" value="01/01/1990" id="ctl00_ContentPlaceHolder1_txtFromDate" class="textbox2" onclick="showCalendarControl('ctl00_ContentPlaceHolder1_txtFromDate', 'ctl00_ContentPlaceHolder1_divMFdate',false,1991);" onkeydown="javascript:return showalert();" onkeyup="javascript:clearText(event,'ctl00_ContentPlaceHolder1_txtFromDate');" style="width:80px;" />    
+            <img src="../../../include/images/calender01.gif" id="imgCal" style="cursor: pointer; padding-top:4px;" onclick="showCalendarControl('ctl00_ContentPlaceHolder1_txtFromDate', 'ctl00_ContentPlaceHolder1_divMFdate',false,1991);" 
+                  align="top" alt="Calendar" />
+            <div id="ctl00_ContentPlaceHolder1_divMFdate" style="z-index:99999;"></div>
+    
+            </td>
+            
+            <td align="left" class="TTRow">
+            To :&nbsp;&nbsp;
+              <input name="ctl00$ContentPlaceHolder1$txtToDate" type="text" value="31/12/2014" id="ctl00_ContentPlaceHolder1_txtToDate" class="textbox2" onkeyup="clearText(event,'ctl00_ContentPlaceHolder1_txtToDate')" onkeypress="return false;" onpaste="return false;" onclick="showCalendarControl('ctl00_ContentPlaceHolder1_txtToDate', 'ctl00_ContentPlaceHolder1_DivDate1',false)" style="width:80px;" />
+           <img src="../../../include/images/calender01.gif"id="imgCal1" style="cursor: hand" onclick="showCalendarControl('ctl00_ContentPlaceHolder1_txtToDate', 'ctl00_ContentPlaceHolder1_DivDate1',false)"
+                    align="middle" alt="Calendar" />
+                  <div id="ctl00_ContentPlaceHolder1_DivDate1" style="z-index:99999;"></div>
+            </td>
+            </tr>
+            <tr>
+            <td align="left" class="TTHeadedefault">
+            <input id="ctl00_ContentPlaceHolder1_rdbMonthly" type="radio" name="ctl00$ContentPlaceHolder1$DMY" value="rdbMonthly" onclick="ChangeDMYVal('M');" /><label for="ctl00_ContentPlaceHolder1_rdbMonthly">Monthly</label>
+            </td>
+            <td align="left" class='TTRow_left' colspan='2'>From :&nbsp;&nbsp<select name="ctl00$ContentPlaceHolder1$cmbMonthly" id="ctl00_ContentPlaceHolder1_cmbMonthly">
+	<option value="0">MMM</option>
+	<option value="01">Jan</option>
+	<option value="02">Feb</option>
+	<option value="03">Mar</option>
+	<option value="04">Apr</option>
+	<option value="05">May</option>
+	<option value="06">Jun</option>
+	<option value="07">Jul</option>
+	<option value="08">Aug</option>
+	<option value="09">Sep</option>
+	<option value="10">Oct</option>
+	<option value="11">Nov</option>
+	<option value="12">Dec</option>
+
+</select>&nbsp;&nbsp;&nbsp;
+            <select name="ctl00$ContentPlaceHolder1$cmbMYear" id="ctl00_ContentPlaceHolder1_cmbMYear" onChange="onChange()">
+	<option value="YYYY">YYYY</option>
+	<option value="2015">2015</option>
+	<option value="2014">2014</option>
+	<option value="2013">2013</option>
+	<option value="2012">2012</option>
+	<option value="2011">2011</option>
+	<option value="2010">2010</option>
+	<option value="2009">2009</option>
+	<option value="2008">2008</option>
+	<option value="2007">2007</option>
+	<option value="2006">2006</option>
+	<option value="2005">2005</option>
+	<option value="2004">2004</option>
+	<option value="2003">2003</option>
+	<option value="2002">2002</option>
+	<option value="2001">2001</option>
+	<option value="2000">2000</option>
+	<option value="1999">1999</option>
+	<option value="1998">1998</option>
+	<option value="1997">1997</option>
+	<option value="1996">1996</option>
+	<option value="1995">1995</option>
+	<option value="1994">1994</option>
+	<option value="1993">1993</option>
+	<option value="1992">1992</option>
+	<option value="1991">1991</option>
+
+</select>
+            </td>
+            </tr>
+            <tr>
+            <td align="left" class="TTHeadedefault">
+            <input id="ctl00_ContentPlaceHolder1_rdbYearly" type="radio" name="ctl00$ContentPlaceHolder1$DMY" value="rdbYearly" onclick="ChangeDMYVal('Y');" /><label for="ctl00_ContentPlaceHolder1_rdbYearly">Yearly</label>
+            </td>
+            <td align="left" class="TTRow">
+            From :&nbsp;&nbsp<select name="ctl00$ContentPlaceHolder1$cmbYearly" id="ctl00_ContentPlaceHolder1_cmbYearly" onChange="onChangeYearly()">
+	<option value="YYYY">YYYY</option>
+	<option value="2015">2015</option>
+	<option value="2014">2014</option>
+	<option value="2013">2013</option>
+	<option value="2012">2012</option>
+	<option value="2011">2011</option>
+	<option value="2010">2010</option>
+	<option value="2009">2009</option>
+	<option value="2008">2008</option>
+	<option value="2007">2007</option>
+	<option value="2006">2006</option>
+	<option value="2005">2005</option>
+	<option value="2004">2004</option>
+	<option value="2003">2003</option>
+	<option value="2002">2002</option>
+	<option value="2001">2001</option>
+	<option value="2000">2000</option>
+	<option value="1999">1999</option>
+	<option value="1998">1998</option>
+	<option value="1997">1997</option>
+	<option value="1996">1996</option>
+	<option value="1995">1995</option>
+	<option value="1994">1994</option>
+	<option value="1993">1993</option>
+	<option value="1992">1992</option>
+	<option value="1991">1991</option>
+
+</select>
+            </td>
+            <td class="TTRow">
+            </td>
+            </tr>
+            <tr>
+            <td align="center" class="TTRow"  colspan='3'>
+           <input type="image" name="ctl00$ContentPlaceHolder1$btnSubmit" id="ctl00_ContentPlaceHolder1_btnSubmit" src="../../../include/images/submit.gif" onclick="return onbtnSubmit_Click();return onbtnSubmit_Click();" style="border-width:0px;height: 27px" /> 
+            </td>
+            </tr>
+            </table>
+            </div>
+            </td>
+             </tr>
+            </table>
+            </td>
+            </tr>
+   </table>
+
+</div>
+
+<div align="right" style="padding-right:10px;">
+
+     <script type="text/javascript">
+              google_ad_client = 'ca-bseindia-ab_site_js';
+		      google_ad_channel = 'eq_hisdata_bot_300x250'; // substitute your channel
+		      google_ad_output = 'js'; // leave this value as js
+		      google_max_num_ads = '4'; // specify the number of maximum ads
+		      google_ad_type = 'text,flash,image'; // type of ads to display
+		      google_safe = 'high'; // specify the ad safety
+		      google_image_size = '300x250';
+		      google_language = 'en';
+		      google_ad_width = 300;
+		      google_ad_height = 250;
+		      if (google_ad_type.indexOf(google_last_ad_type) > -1)
+		          google_skip = google_num_ads;
+		    </script>
+
+                <div  style="width:300px;height:250px;border:1px solid #E6EEF1" id="Div1">
+				<script language="JavaScript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+                </div>
+ </div>  
+
+
+
+</div>
+</div>
+
+<div class="incontentshadediv">
+<div class="incontentwhitearea">
+<div class="content">
+
+   
+    
+    <div id="ctl00_ContentPlaceHolder1_divStockData" style="display:;">
+    <table cellspacing='0px' cellpadding='2px' width="580px" >
+    
+        <tr>
+           <td class="TTRow_left" >
+                <div id="divCompany" style="font-weight:bold" >
+                <b>Company :</b><span id="ctl00_ContentPlaceHolder1_lblCompanyValue"><a target='_blank' Class='tablebluelink' href='http://www.bseindia.com/stock-share-price/motherson-sumi-systems-ltd/mothersumi/517334/'>MOTHERSON SUMI SYSTEMS LTD.</a></span>
+                <span id="ctl00_ContentPlaceHolder1_lblScripCodeValue">517334</span>
+                </div>
+           </td>
+        </tr>
+        <tr>
+            <td >
+                <table cellspacing='0' cellpadding='0' style="width:100%">
+                <tr>
+                <td  align="left"  width="300px">
+                <span id="ctl00_ContentPlaceHolder1_Label1" style="font-weight:bold;">Period:</span>
+                 
+                <span id="ctl00_ContentPlaceHolder1_lblPeriodFrom">01-Jan-1990</span>&nbsp;to&nbsp;<span id="ctl00_ContentPlaceHolder1_lblPeriodTo">31-Dec-2014</span>
+                </td>
+                 <td align="right" width="300px" ><span id="ctl00_ContentPlaceHolder1_spnScripID"></span>
+            </td>
+                <td align="right" >
+                <span id="ctl00_ContentPlaceHolder1_spnNoOfRecord" style="display:none;">
+                <span id="ctl00_ContentPlaceHolder1_spnRecordText"></span>
+                </span>
+                </td>
+                </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+           <td align="right">
+                 All Prices in <img id="ctl00_ContentPlaceHolder1_Image1" src="../../../include/images/rs_b.gif" style="border-width:0px;" />
+           </td>
+        </tr>
+        <tr>
+            <td  >
+           <table width="100%"  cellpadding="4" cellspacing="1">
+            <tr>
+            <td bgcolor="#d6d6d6">
+               <div id="ctl00_ContentPlaceHolder1_divStkData">
+               <div id="ctl00_ContentPlaceHolder1_spnError" style="position:relative;top:50%;text-align:center;display:none;"></div>
+               <span id="ctl00_ContentPlaceHolder1_spnStkData"><table width='680px' border='0' cellpadding='4' cellspacing='1'><tr><td width='50px' class='innertable_header1' rowspan='2'>Date</td><td width='65px' class='innertable_header1' rowspan='2'>Open</td><td width='65px' class='innertable_header1' rowspan='2'>High</td><td width='65px' class='innertable_header1' rowspan='2'>Low</td><td width='65px' class='innertable_header1' rowspan='2'>Close</td><td width='70px' class='innertable_header1' rowspan='2'>WAP</td><td width='70px' class='innertable_header1' rowspan='2'>No. of <br/>Shares</td><td width='75px' class='innertable_header1' rowspan='2'>No. of <br/>Trades</td><td width='125px' class='innertable_header1' rowspan='2'>Total Turnover</td><td width='125px' class='innertable_header1' rowspan='2'>Deliverable Quantity</td><td width='125px' class='innertable_header1' rowspan='2'>% Deli. Qty to Traded Qty </td><td width='160px' class='innertable_header1'  colspan='2'>* Spread</td><td width='5px' class='innertable_header1' rowspan='2'>&nbsp;</td></tr><tr><td width='50px' class='innertable_header1'>H-L</td><td width='50px' class='innertable_header1'>C-O</td></tr><tr class='TTRow'><td class='TTRow_left10' width='50px'>9/09/93</td><td width='65px' class='TTRow_right10'>41.00</td><td width='65px' class='TTRow_right10'>43.00</td><td width='65px' class='TTRow_right10'>41.00</td><td width='65px' class='TTRow_right10'>42.00</td><td width='70px' class='TTRow_right10'>0.00</td><td width='70px' class='TTRow_right10'></td><td width='75px' class='TTRow_right10'></td><td width='125px' class='TTRow_right10'>0</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>2.00</td><td width='45px' class='TTRow_right10'>1.00</td><td width='5px' class='TTRow_right10'>@</td></tr><tr class='TTRow'><td class='TTRow_left10' width='50px'>10/09/93</td><td width='65px' class='TTRow_right10'>40.00</td><td width='65px' class='TTRow_right10'>45.00</td><td width='65px' class='TTRow_right10'>40.00</td><td width='65px' class='TTRow_right10'>44.00</td><td width='70px' class='TTRow_right10'>0.00</td><td width='70px' class='TTRow_right10'></td><td width='75px' class='TTRow_right10'></td><td width='125px' class='TTRow_right10'>0</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>5.00</td><td width='45px' class='TTRow_right10'>4.00</td><td width='5px' class='TTRow_right10'>@</td></tr><tr class='TTRow'><td class='TTRow_left10' width='50px'>13/09/93</td><td width='65px' class='TTRow_right10'>43.00</td><td width='65px' class='TTRow_right10'>50.00</td><td width='65px' class='TTRow_right10'>43.00</td><td width='65px' class='TTRow_right10'>47.00</td><td width='70px' class='TTRow_right10'>0.00</td><td width='70px' class='TTRow_right10'></td><td width='75px' class='TTRow_right10'></td><td width='125px' class='TTRow_right10'>0</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>7.00</td><td width='45px' class='TTRow_right10'>4.00</td><td width='5px' class='TTRow_right10'>@</td></tr><tr class='TTRow'><td class='TTRow_left10' width='50px'>14/09/93</td><td width='65px' class='TTRow_right10'>45.00</td><td width='65px' class='TTRow_right10'>50.00</td><td width='65px' class='TTRow_right10'>45.00</td><td width='65px' class='TTRow_right10'>50.00</td><td width='70px' class='TTRow_right10'>0.00</td><td width='70px' class='TTRow_right10'></td><td width='75px' class='TTRow_right10'></td><td width='125px' class='TTRow_right10'>0</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>5.00</td><td width='45px' class='TTRow_right10'>5.00</td><td width='5px' class='TTRow_right10'>@</td></tr><tr class='TTRow'><td class='TTRow_left10' width='50px'>15/09/93</td><td width='65px' class='TTRow_right10'>46.25</td><td width='65px' class='TTRow_right10'>50.00</td><td width='65px' class='TTRow_right10'>45.00</td><td width='65px' class='TTRow_right10'>50.00</td><td width='70px' class='TTRow_right10'>0.00</td><td width='70px' class='TTRow_right10'></td><td width='75px' class='TTRow_right10'></td><td width='125px' class='TTRow_right10'>0</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>5.00</td><td width='45px' class='TTRow_right10'>3.75</td><td width='5px' class='TTRow_right10'>@</td></tr><tr class='TTRow'><td class='TTRow_left10' width='50px'>16/09/93</td><td width='65px' class='TTRow_right10'>45.00</td><td width='65px' class='TTRow_right10'>48.75</td><td width='65px' class='TTRow_right10'>45.00</td><td width='65px' class='TTRow_right10'>47.50</td><td width='70px' class='TTRow_right10'>0.00</td><td width='70px' class='TTRow_right10'></td><td width='75px' class='TTRow_right10'></td><td width='125px' class='TTRow_right10'>0</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>3.75</td><td width='45px' class='TTRow_right10'>2.50</td><td width='5px' class='TTRow_right10'>@</td></tr><tr class='TTRow'><td class='TTRow_left10' width='50px'>17/09/93</td><td width='65px' class='TTRow_right10'>45.00</td><td width='65px' class='TTRow_right10'>48.75</td><td width='65px' class='TTRow_right10'>45.00</td><td width='65px' class='TTRow_right10'>48.75</td><td width='70px' class='TTRow_right10'>0.00</td><td width='70px' class='TTRow_right10'></td><td width='75px' class='TTRow_right10'></td><td width='125px' class='TTRow_right10'>0</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>3.75</td><td width='45px' class='TTRow_right10'>3.75</td><td width='5px' class='TTRow_right10'>@</td></tr><tr class='TTRow'><td class='TTRow_left10' width='50px'>20/09/93</td><td width='65px' class='TTRow_right10'>45.00</td><td width='65px' class='TTRow_right10'>50.00</td><td width='65px' class='TTRow_right10'>45.00</td><td width='65px' class='TTRow_right10'>50.00</td><td width='70px' class='TTRow_right10'>0.00</td><td width='70px' class='TTRow_right10'></td><td width='75px' class='TTRow_right10'></td><td width='125px' class='TTRow_right10'>0</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>5.00</td><td width='45px' class='TTRow_right10'>5.00</td><td width='5px' class='TTRow_right10'>@</td></tr><tr class='TTRow'><td class='TTRow_left10' width='50px'>21/09/93</td><td width='65px' class='TTRow_right10'>47.50</td><td width='65px' class='TTRow_right10'>49.00</td><td width='65px' class='TTRow_right10'>45.00</td><td width='65px' class='TTRow_right10'>49.00</td><td width='70px' class='TTRow_right10'>0.00</td><td width='70px' class='TTRow_right10'></td><td width='75px' class='TTRow_right10'></td><td width='125px' class='TTRow_right10'>0</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>4.00</td><td width='45px' class='TTRow_right10'>1.50</td><td width='5px' class='TTRow_right10'>@</td></tr><tr class='TTRow'><td class='TTRow_left10' width='50px'>22/09/93</td><td width='65px' class='TTRow_right10'>48.00</td><td width='65px' class='TTRow_right10'>49.00</td><td width='65px' class='TTRow_right10'>48.00</td><td width='65px' class='TTRow_right10'>49.00</td><td width='70px' class='TTRow_right10'>0.00</td><td width='70px' class='TTRow_right10'></td><td width='75px' class='TTRow_right10'></td><td width='125px' class='TTRow_right10'>0</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>1.00</td><td width='45px' class='TTRow_right10'>1.00</td><td width='5px' class='TTRow_right10'>@</td></tr><tr class='TTRow'><td class='TTRow_left10' width='50px'>24/09/93</td><td width='65px' class='TTRow_right10'>46.25</td><td width='65px' class='TTRow_right10'>48.75</td><td width='65px' class='TTRow_right10'>46.25</td><td width='65px' class='TTRow_right10'>48.75</td><td width='70px' class='TTRow_right10'>0.00</td><td width='70px' class='TTRow_right10'></td><td width='75px' class='TTRow_right10'></td><td width='125px' class='TTRow_right10'>0</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>2.50</td><td width='45px' class='TTRow_right10'>2.50</td><td width='5px' class='TTRow_right10'>@</td></tr><tr class='TTRow'><td class='TTRow_left10' width='50px'>27/09/93</td><td width='65px' class='TTRow_right10'>45.00</td><td width='65px' class='TTRow_right10'>45.00</td><td width='65px' class='TTRow_right10'>45.00</td><td width='65px' class='TTRow_right10'>45.00</td><td width='70px' class='TTRow_right10'>0.00</td><td width='70px' class='TTRow_right10'></td><td width='75px' class='TTRow_right10'></td><td width='125px' class='TTRow_right10'>0</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>0.00</td><td width='45px' class='TTRow_right10'>0.00</td><td width='5px' class='TTRow_right10'>@</td></tr><tr class='TTRow'><td class='TTRow_left10' width='50px'>28/09/93</td><td width='65px' class='TTRow_right10'>47.50</td><td width='65px' class='TTRow_right10'>50.00</td><td width='65px' class='TTRow_right10'>47.50</td><td width='65px' class='TTRow_right10'>49.00</td><td width='70px' class='TTRow_right10'>0.00</td><td width='70px' class='TTRow_right10'></td><td width='75px' class='TTRow_right10'></td><td width='125px' class='TTRow_right10'>0</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>2.50</td><td width='45px' class='TTRow_right10'>1.50</td><td width='5px' class='TTRow_right10'>@</td></tr><tr class='TTRow'><td class='TTRow_left10' width='50px'>29/09/93</td><td width='65px' class='TTRow_right10'>47.50</td><td width='65px' class='TTRow_right10'>53.75</td><td width='65px' class='TTRow_right10'>47.50</td><td width='65px' class='TTRow_right10'>52.00</td><td width='70px' class='TTRow_right10'>0.00</td><td width='70px' class='TTRow_right10'></td><td width='75px' class='TTRow_right10'></td><td width='125px' class='TTRow_right10'>0</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>6.25</td><td width='45px' class='TTRow_right10'>4.50</td><td width='5px' class='TTRow_right10'>@</td></tr><tr class='TTRow'><td class='TTRow_left10' width='50px'>30/09/93</td><td width='65px' class='TTRow_right10'>51.25</td><td width='65px' class='TTRow_right10'>53.75</td><td width='65px' class='TTRow_right10'>51.25</td><td width='65px' class='TTRow_right10'>53.75</td><td width='70px' class='TTRow_right10'>0.00</td><td width='70px' class='TTRow_right10'></td><td width='75px' class='TTRow_right10'></td><td width='125px' class='TTRow_right10'>0</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>2.50</td><td width='45px' class='TTRow_right10'>2.50</td><td width='5px' class='TTRow_right10'>@</td></tr><tr class='TTRow'><td class='TTRow_left10' width='50px'>1/10/93</td><td width='65px' class='TTRow_right10'>52.00</td><td width='65px' class='TTRow_right10'>54.00</td><td width='65px' class='TTRow_right10'>51.50</td><td width='65px' class='TTRow_right10'>54.00</td><td width='70px' class='TTRow_right10'>0.00</td><td width='70px' class='TTRow_right10'></td><td width='75px' class='TTRow_right10'></td><td width='125px' class='TTRow_right10'>0</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>2.50</td><td width='45px' class='TTRow_right10'>2.00</td><td width='5px' class='TTRow_right10'>@</td></tr><tr class='TTRow'><td class='TTRow_left10' width='50px'>4/10/93</td><td width='65px' class='TTRow_right10'>50.00</td><td width='65px' class='TTRow_right10'>55.00</td><td width='65px' class='TTRow_right10'>50.00</td><td width='65px' class='TTRow_right10'>53.00</td><td width='70px' class='TTRow_right10'>0.00</td><td width='70px' class='TTRow_right10'></td><td width='75px' class='TTRow_right10'></td><td width='125px' class='TTRow_right10'>0</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>5.00</td><td width='45px' class='TTRow_right10'>3.00</td><td width='5px' class='TTRow_right10'>@</td></tr><tr class='TTRow'><td class='TTRow_left10' width='50px'>5/10/93</td><td width='65px' class='TTRow_right10'>52.50</td><td width='65px' class='TTRow_right10'>55.00</td><td width='65px' class='TTRow_right10'>52.50</td><td width='65px' class='TTRow_right10'>55.00</td><td width='70px' class='TTRow_right10'>0.00</td><td width='70px' class='TTRow_right10'></td><td width='75px' class='TTRow_right10'></td><td width='125px' class='TTRow_right10'>0</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>2.50</td><td width='45px' class='TTRow_right10'>2.50</td><td width='5px' class='TTRow_right10'>@</td></tr><tr class='TTRow'><td class='TTRow_left10' width='50px'>6/10/93</td><td width='65px' class='TTRow_right10'>53.00</td><td width='65px' class='TTRow_right10'>55.00</td><td width='65px' class='TTRow_right10'>52.50</td><td width='65px' class='TTRow_right10'>53.00</td><td width='70px' class='TTRow_right10'>0.00</td><td width='70px' class='TTRow_right10'></td><td width='75px' class='TTRow_right10'></td><td width='125px' class='TTRow_right10'>0</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>2.50</td><td width='45px' class='TTRow_right10'>0.00</td><td width='5px' class='TTRow_right10'>@</td></tr><tr class='TTRow'><td class='TTRow_left10' width='50px'>7/10/93</td><td width='65px' class='TTRow_right10'>53.75</td><td width='65px' class='TTRow_right10'>55.00</td><td width='65px' class='TTRow_right10'>53.00</td><td width='65px' class='TTRow_right10'>55.00</td><td width='70px' class='TTRow_right10'>0.00</td><td width='70px' class='TTRow_right10'></td><td width='75px' class='TTRow_right10'></td><td width='125px' class='TTRow_right10'>0</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>2.00</td><td width='45px' class='TTRow_right10'>1.25</td><td width='5px' class='TTRow_right10'>@</td></tr><tr class='TTRow'><td class='TTRow_left10' width='50px'>8/10/93</td><td width='65px' class='TTRow_right10'>55.00</td><td width='65px' class='TTRow_right10'>57.50</td><td width='65px' class='TTRow_right10'>53.75</td><td width='65px' class='TTRow_right10'>55.00</td><td width='70px' class='TTRow_right10'>0.00</td><td width='70px' class='TTRow_right10'></td><td width='75px' class='TTRow_right10'></td><td width='125px' class='TTRow_right10'>0</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>3.75</td><td width='45px' class='TTRow_right10'>0.00</td><td width='5px' class='TTRow_right10'>@</td></tr><tr class='TTRow'><td class='TTRow_left10' width='50px'>11/10/93</td><td width='65px' class='TTRow_right10'>57.50</td><td width='65px' class='TTRow_right10'>61.25</td><td width='65px' class='TTRow_right10'>57.50</td><td width='65px' class='TTRow_right10'>60.00</td><td width='70px' class='TTRow_right10'>0.00</td><td width='70px' class='TTRow_right10'></td><td width='75px' class='TTRow_right10'></td><td width='125px' class='TTRow_right10'>0</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>3.75</td><td width='45px' class='TTRow_right10'>2.50</td><td width='5px' class='TTRow_right10'>@</td></tr><tr class='TTRow'><td class='TTRow_left10' width='50px'>12/10/93</td><td width='65px' class='TTRow_right10'>59.00</td><td width='65px' class='TTRow_right10'>62.50</td><td width='65px' class='TTRow_right10'>59.00</td><td width='65px' class='TTRow_right10'>62.50</td><td width='70px' class='TTRow_right10'>0.00</td><td width='70px' class='TTRow_right10'></td><td width='75px' class='TTRow_right10'></td><td width='125px' class='TTRow_right10'>0</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>3.50</td><td width='45px' class='TTRow_right10'>3.50</td><td width='5px' class='TTRow_right10'>@</td></tr><tr class='TTRow'><td class='TTRow_left10' width='50px'>19/10/93</td><td width='65px' class='TTRow_right10'>60.00</td><td width='65px' class='TTRow_right10'>63.75</td><td width='65px' class='TTRow_right10'>60.00</td><td width='65px' class='TTRow_right10'>63.75</td><td width='70px' class='TTRow_right10'>0.00</td><td width='70px' class='TTRow_right10'></td><td width='75px' class='TTRow_right10'></td><td width='125px' class='TTRow_right10'>0</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>3.75</td><td width='45px' class='TTRow_right10'>3.75</td><td width='5px' class='TTRow_right10'>@</td></tr><tr class='TTRow'><td class='TTRow_left10' width='50px'>20/10/93</td><td width='65px' class='TTRow_right10'>62.50</td><td width='65px' class='TTRow_right10'>62.50</td><td width='65px' class='TTRow_right10'>59.00</td><td width='65px' class='TTRow_right10'>59.00</td><td width='70px' class='TTRow_right10'>0.00</td><td width='70px' class='TTRow_right10'></td><td width='75px' class='TTRow_right10'></td><td width='125px' class='TTRow_right10'>0</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>3.50</td><td width='45px' class='TTRow_right10'>-3.50</td><td width='5px' class='TTRow_right10'>@</td></tr><tr class='TTRow'><td class='TTRow_left10' width='50px'>21/10/93</td><td width='65px' class='TTRow_right10'>57.50</td><td width='65px' class='TTRow_right10'>60.00</td><td width='65px' class='TTRow_right10'>57.50</td><td width='65px' class='TTRow_right10'>60.00</td><td width='70px' class='TTRow_right10'>0.00</td><td width='70px' class='TTRow_right10'></td><td width='75px' class='TTRow_right10'></td><td width='125px' class='TTRow_right10'>0</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>-</td><td width='45px' class='TTRow_right10'>2.50</td><td width='45px' class='TTRow_right10'>2.50</td><td width='5px' class='TTRow_right10'>@</td></tr></table><span id='spnSpread' class='spnSpread' >* Spread  H-L : High-Low; C-O : Close-Open<br />@ Shares traded in Physical form</span></span>
+                
+               <div id="divNoRecord" style="position:relative;top:50%;text-align:center;"> 
+               
+               </div>
+               </div>
+               </td>
+             </tr>
+              
+              
+               <tr id="ctl00_ContentPlaceHolder1_trNote">
+	<td>
+                                Note: Kindly download the csv file to view all records. <span class="blackbredcrumb">
+                                    <input type="image" name="ctl00$ContentPlaceHolder1$btnDownload1" id="ctl00_ContentPlaceHolder1_btnDownload1" title="Download" alt="" border="0" src="../../../include/images/excelicon.gif" style="border-width:0px;" />
+                                </span>
+                            </td>
+</tr>
+
+             </table>
+            </td>
+        </tr>
+    </table>
+    </div>
+    <div id="ctl00_ContentPlaceHolder1_divCTData" style="display:none;">
+        <table cellpadding="0px" cellspacing="0px" width="780px">
+        
+        <tr>
+            <td  align="left" class="TTRow_left">
+                <span id="ctl00_ContentPlaceHolder1_Label2" style="font-weight:bold;">Period:</span>
+                <span id="ctl00_ContentPlaceHolder1_lblFrom"></span>&nbsp;to&nbsp;<span id="ctl00_ContentPlaceHolder1_lblTo"></span>
+              
+            </td>
+            <td align="right" width="300px" ><span id="ctl00_ContentPlaceHolder1_spnDwnRec"></span>
+            </td>
+        </tr>
+        <tr>
+           <td colspan="2" align="right">
+                 All Prices in <img id="ctl00_ContentPlaceHolder1_Image2" src="../../../include/images/rs_b.gif" style="border-width:0px;" />
+           </td>
+        </tr>
+        <tr>
+        <td style="width:auto;height:auto;">
+        <table width="100%"  cellpadding="4" cellspacing="1">
+            <tr>
+            <td bgcolor="#d6d6d6">
+            <div id="ctl00_ContentPlaceHolder1_divRecord">
+             <span id="ctl00_ContentPlaceHolder1_spnRecord">
+             
+             </span>
+             
+             <div id="ctl00_ContentPlaceHolder1_divErr" style="position:relative;top:40%;text-align:center;">
+             <span id="ctl00_ContentPlaceHolder1_spnErrorR"></span>
+             <span id="ctl00_ContentPlaceHolder1_spnNoRecord"></span>
+             </div>
+            </div>
+            </td>
+            </tr>
+            
+             
+        </table>
+        </td>
+        </tr>
+        </table>
+        </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ 
+   
+   
+   
+   </div>
+   
+   
+   
+   
+    
+
+
+<!--footerarea -->
+
+<div class="footerarea">
+<script type="text/javascript"  language="JavaScript1.2" src="http://www.bseindia.com/include/js/footer.js"></script>
+
+
+</div>
+
+<!--footerarea -->
+
+</div>
+   
+  
+
+
+
+
+</div>
+
+</div>
+ 
+   
+    
+    </form>
+</body>
+</html>

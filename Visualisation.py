@@ -69,11 +69,11 @@ def correlate(comp):
                     if diffb>0 and diffc>0:
                         val = 1
                     elif diffb>0 and diffc<0:
-                        val = -2
+                        val = -1
                     elif diffb<0 and diffc>0:
                         val = 2
                     elif diffb<0 and diffc<0:
-                        val = -1
+                        val = -0
                         
                         
                     prevb = x
@@ -110,6 +110,20 @@ def loaddata():
         comp.append(na[0])
     for r in bse:
         sen[r[0]] = r[4]
+        
+        
+        
+def check():
+    a = csv.reader(open("./NewData/bsesectors.csv","rb"))
+    next(a, None)
+    co = 0
+    for a1 in a:
+        #print a1[0]
+        if a1[7] in comp:
+            print co,a1[0]
+            co = co + 1
+    
+        
     
 
 def correlation():
@@ -157,15 +171,12 @@ def correlation():
 
 
 
-
-
-
-
 def main():
     loaddata()
+    #check()
     correlation()
     display()
-    #display()
+    
    
 
 
