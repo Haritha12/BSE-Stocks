@@ -28,7 +28,7 @@ def yearWise():
     firstCp = {}
     gainper = {}
     
-    req = datetime.datetime.strptime('31-December-2014', '%d-%B-%Y').date()
+    #req = datetime.datetime.strptime('31-December-2014', '%d-%B-%Y').date()
     #print req
     
     
@@ -66,6 +66,7 @@ def yearWise():
             """
     
     for code in CODE_LIST:
+        
         last = float(lastCp[code])
         first = float(firstCp[code])
                  
@@ -78,7 +79,7 @@ def yearWise():
     r = 99.00       
     for i in sorted_values:
         u,v = i
-        print u,v
+        #print u,v
         yRank[u] = r/100.00
         r = r-1
     
