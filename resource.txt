@@ -1,2 +1,5 @@
 data url: 
  http://www.bseindia.com/markets/equity/EQReports/StockPrcHistori.aspx?scripcode=512289&flag=sp&Submit=G
+ 
+String to date:
+  req_date = datetime.datetime.strptime(f[0], '%d-%B-%Y').date()

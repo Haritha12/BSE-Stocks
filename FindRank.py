@@ -3,7 +3,7 @@ import pprint
 import urllib
 import csv
 import operator
- 
+import datetime
 
 CODE_LIST = []
 BSE_CODE_NAMES = {}  
@@ -28,13 +28,31 @@ def yearWise():
     firstCp = {}
     gainper = {}
     
+    req = datetime.datetime.strptime('31-December-2014', '%d-%B-%Y').date()
+    #print req
+    
     
     for code in CODE_LIST:
         
         fp = csv.reader(open("./BigData/files/"+code+".csv","rb"))
-    
+        next(fp,None)
+        
         for f in fp:
            
+            #print f[0]
+            req_date = datetime.datetime.strptime(f[0], '%d-%B-%Y').date()
+            #print req_date
+            
+            if str(req_date) == "2014-12-31":
+                lastCp[code] = f[4]
+                
+            elif str(req_date) == "2014-01-01":
+                firstCp[code] = f[4]
+              
+            else :
+                continue
+            
+            """
             if f[0] == "31-December-2014":
                 #print "in if"
                 lastCp[code] = f[4] 
@@ -45,7 +63,7 @@ def yearWise():
               
             else :
                 continue
-    
+            """
     
     for code in CODE_LIST:
         last = float(lastCp[code])
