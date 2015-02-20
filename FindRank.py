@@ -56,13 +56,17 @@ def yearWise():
         
         gainper[code] = perchange
         sorted_values = sorted(gainper.items(), key=operator.itemgetter(1), reverse=True)
-        
-        #print gainper
-    print sorted_values
-        #print code,": % change is ", perchange
-        
     
-       
+    r = 99.00       
+    for i in sorted_values:
+        u,v = i
+        print u,v
+        yRank[u] = r/100.00
+        r = r-1
+    
+    for key in yRank:
+       print "code : ",key," rank: ",yRank[key]
+      
 def main():
     loadData()
     yearWise()
