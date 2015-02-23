@@ -23,6 +23,7 @@ def loadData():
              
 def yearWise():
     
+    print "in year wise"
     #print CODE_LIST
     lastCp = {}
     firstCp = {}
@@ -85,10 +86,87 @@ def yearWise():
     
     for key in yRank:
        print "code : ",key," rank: ",yRank[key]
-      
+       
+
+def monthWise():
+    
+    print "in month wise"
+    
+    last = {}
+    first = {}
+    gain = {}
+    
+    count = 12
+   
+    #for code in CODE_LIST:
+        
+    fp = csv.reader(open("./BigData/files/"+"500010"+".csv","rb"))
+    next(fp,None)
+    
+    lastCp = {}
+    firstCp = {}
+    gainper = {}
+        
+
+    for f in fp:
+       
+        req_date = datetime.datetime.strptime(f[0], '%d-%B-%Y').date()
+        mon = req_date.month
+        req = 0.0
+        
+        if str(req_date) == "2014-12-31":
+            declast = f[4]
+            
+        if req_date.year == 2014:
+                    
+            for m in range(count,0,-1):
+                 
+                temp = f[4]
+  
+                if mon != m :
+                    req = temp
+                    break
+                                
+            m = m-1    
+            
+            print "l:", declast,"f: ",req
+            
+        else:
+            break
+            
+        
+       
+        
+        #print "L: ",lastCp
+        #print "F: ",firstCp
+        
+        """
+        last = float(lastCp[code])
+        first = float(firstCp[code])
+                 
+        gain = (last - first) / first
+        perchange = round ((gain * 100),2)
+        
+        gainper[code] = perchange
+        sorted_values = sorted(gainper.items(), key=operator.itemgetter(1), reverse=True)
+
+        r = 99.00       
+        for i in sorted_values:
+            u,v = i
+            #print u,v
+            yRank[u] = r/100.00
+            r = r-1
+        
+        for key in yRank:
+           print "code : ",key," rank: ",yRank[key]
+        
+        """
+    
+    
 def main():
     loadData()
-    yearWise()
+    #yearWise()
+    monthWise()
    
 if __name__ == "__main__":
     main() 
