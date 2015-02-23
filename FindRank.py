@@ -91,12 +91,8 @@ def yearWise():
 def monthWise():
     
     print "in month wise"
-    
-    last = {}
-    first = {}
-    gain = {}
-    
-    count = 12
+
+    #count = 12
    
     #for code in CODE_LIST:
         
@@ -119,23 +115,11 @@ def monthWise():
             
         if req_date.year == 2014:
                     
-            for m in range(count,0,-1):
-                 
-                temp = f[4]
-  
-                if mon != m :
-                    req = temp
-                    break
-                                
-            m = m-1    
-            
-            print "l:", declast,"f: ",req
+           print "in if"
             
         else:
             break
             
-        
-       
         
         #print "L: ",lastCp
         #print "F: ",firstCp
@@ -165,8 +149,8 @@ def monthWise():
     
 def main():
     loadData()
-    #yearWise()
-    monthWise()
+    yearWise()
+    #monthWise()
    
 if __name__ == "__main__":
     main() 
