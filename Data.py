@@ -1,19 +1,6 @@
 import urllib
 import csv
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 data = csv.reader(open("./data/BSE100.csv","rb"))
 tickets = []
 
