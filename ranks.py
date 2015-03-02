@@ -137,6 +137,8 @@ def weeklyrank():
     
     weekchangeavgs = {}
     
+    nweeks = 0
+    
     for company in comp:       
         
         #print company,"======================"  
@@ -196,30 +198,59 @@ def weeklyrank():
             if date<=start_date:
                 if days != 0:
                     weeks = weeks+1
-                    weekchange[weeks] = ((week_end-week_start)/week_start)*100               
+                    weekchange[weeks] = ((week_end-week_start)/week_start)*100 
+                    nweeks = weeks              
                 break
         
-        #print company,weekchange
-        avg = np.mean(weekchange.values())
+               
+        weekchangeavgs[company] = weekchange   
         
-        #print avg
-        weekchangeavgs[company] = avg   
+    totalweeks = []
+    for i in range(1,nweeks+1):       
+        weeklychanges = {}
+        for company in comp:
+            cmpn = weekchangeavgs[company]
+            #print compn
+            if i in cmpn.keys():   
+                weeklychanges[company] = cmpn[i]
+               # print "============", i, weeklychanges   
         #changes = weekchange
-    sorted_avgs = sorted(weekchangeavgs.items(), key=operator.itemgetter(1),reverse=True)
-   
-    cnt = 99
-    for a in sorted_avgs:
         
+        
+        sorted_changes = sorted(weeklychanges.items(), key=operator.itemgetter(1),reverse=True)
+        cnt = 99
+        weeklyweights = {}
+        for a in sorted_changes:  
        
-        weekweights[a[0]] = float(cnt)/100
-        #print str(cnt)+")"+bsenames[a[0]]+"========"+str(a[1])
-        cnt -=1        
+            weeklyweights[a[0]] = float(cnt)/100
+            #print str(cnt)+")"+bsenames[a[0]]+"========"+str(a[1])
+            cnt -=1 
+        totalweeks.append(weeklyweights) 
+    
+    for company in comp:   
+        
+        weight = 0 
+        count = 0
+        for tw in totalweeks:
+            if company in tw:
+                if company == "532712":
+                    print "===========",tw[company]
+
+                weight = weight+tw[company]
+                count = count+1
+        
+        finalweight = weight/count
+        weekweights[company] = finalweight
+        
+    
+        
+    
+           
    
     sorted_week_weights = sorted(weekweights.items(), key=operator.itemgetter(1),reverse=True)
     for a in sorted_week_weights:
         print str(bsenames[a[0]])+"----------->"+str(a[1])
-   # file.close()
-   
+  
                 
        
 def monthlyrank():  
@@ -227,7 +258,7 @@ def monthlyrank():
     print "==================monthly weights are================="
          
     monthchangeavgs = {}
-    
+    nmonths = 0
     for company in comp:       
         
         #print company,"======================"  
@@ -266,11 +297,11 @@ def monthlyrank():
                         start_val =  float(row[4])
                     else:
                         if date <= start_date:
-                            monthchange[month] = ((start_val-end_val)/start_val)*100      
+                            monthchange[int(month)] = ((start_val-end_val)/start_val)*100      
                             #print start_val-end_val                
                             break
                         else:
-                            monthchange[month] = ((start_val-end_val)/start_val)*100 
+                            monthchange[int(month)] = ((start_val-end_val)/start_val)*100 
                             #print start_val-end_val 
                             end_val = float(row[4])     
                             month = date.strftime('%m')       
@@ -278,25 +309,61 @@ def monthlyrank():
             
         
         #print company,weekchange
-        avg = np.mean(monthchange.values())
+        
         
         #print avg
-        monthchangeavgs[company] = avg   
+        monthchangeavgs[company] = monthchange 
+        if len(monthchange.keys()) > nmonths:
+            nmonths = len(monthchange.keys()) 
         #changes = weekchange
-    sorted_avgs = sorted(monthchangeavgs.items(), key=operator.itemgetter(1),reverse=True)
-   
-    cnt = 99
-    for a in sorted_avgs:
         
+    totalmonths = []
+    for i in range(1,nmonths+1):       
+        monthlychanges = {}
+       # print i
+        for company in comp:
+            comn = monthchangeavgs[company]
+           # print comn.keys()
+            if i in comn.keys():   
+                monthlychanges[company] = comn[i]
+                 
+                
+                
+
+        #changes = weekchange
+        
+        
+        sorted_changes = sorted(monthlychanges.items(), key=operator.itemgetter(1),reverse=True)
+        
+        cnt = 99
+        monthlyweights = {}
+        for a in sorted_changes:  
        
-        monthweights[a[0]] = float(cnt)/100
-       
-        cnt -=1        
-   
+            monthlyweights[a[0]] = float(cnt)/100
+            #print str(cnt)+")"+bsenames[a[0]]+"========"+str(a[1])
+            cnt -=1 
+        totalmonths.append(monthlyweights) 
+    
+    for company in comp:   
+        
+        weight = 0 
+        count = 0
+        for tm in totalmonths:
+            if company in tm:
+                if company == "532712":
+                    print "===========",tm[company]
+                weight = weight+tm[company]
+                count = count+1
+        
+        finalweight = weight/count
+       # print company,finalweight
+        monthweights[company] = finalweight
+        
+        
+        
     sorted_month_weights = sorted(monthweights.items(), key=operator.itemgetter(1),reverse=True)
     for a in sorted_month_weights:
         print str(bsenames[a[0]])+"----------->"+str(a[1])
-    #file.close()
     
     
     
@@ -385,14 +452,10 @@ def calculateweight():
         
         
         
-    fig = pl.figure()
-    ax = pl.subplot(111)
-    ax.bar(range(len(comp1)), weight)
-    width=0.8
-    ax.set_xticks(np.arange(len(comp1)) + width/2)
-    #ax.set_xticklabels(date, rotation=90)
-    
-    pl.show()
+    xaxis = range(1,101)   
+    plt.bar(xaxis, weight, align='center')
+    plt.xticks(xaxis, comp1)
+    plt.show()
     
     
 def loaddata():
