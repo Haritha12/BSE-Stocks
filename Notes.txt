@@ -1,0 +1,35 @@
+Main Project:
+
+Bse Stock data analysis:
+	By taking the past data of the stocks we try to analyze them, 
+	currently we have taken years.
+
+	Score generation:
+		We try to generate a score for each company based on 
+		the rise and fall with the base as sensex index value each day.
+	
+	Finding the correlation: 
+		We try to find the performance of the company based on the 
+		correlations of the consecutive years to find its consistency.
+	
+	Finding the mean and Standard deviation for each company
+	
+	Graph Generation for Last 3 years
+	
+		Month wise : No of Months V/s Average for each month
+		Week wise : No of weeks V/s Average for each week
+	
+	Weight generation : It says the performance quality in the market
+	
+		Formulae:
+		
+		weight = number of companies under-performed than this company
+		
+		Total weight = average weights of 52 weeks + 
+					   average weights of 12 months + 
+					   weight of complete year
+	
+	Testing our weights given to companies:
+	
+		By taking next one week data and perform the test based on the rank 
+		sgenerated on this one week data and compare with total weight generated
